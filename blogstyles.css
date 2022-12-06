@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'DM Sans', sans-serif;
+}
+
+/*----------------- BLOG TOP SECTION -----------------*/
+
+.blog-top {
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(office.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+nav {
+	width: 75%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo {
+	cursor: pointer;
+}
+
+.nav-links ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+	font-family: 'DM Sans', sans-serif;
+}
+
+.nav-links ul li a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-family: 'DM Sans', sans-serif;
+}
+
+.nav-links ul li::after {
+	content: '';
+	height: 3px;
+	width: 0%;
+	background: #4F9BE2;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+	width: 100%;
+}
+
+.close {
+	display: none;
+}
+
+.bar {
+	color: #fff;
+	cursor: pointer;
+	display: none;
+}
+
+.blog-top-content {
+	width: 100%;
+	position: relative;
+	top: 0px;
+	text-align: center;
+	color: #fff;
+}
+
+.blog-top-content h1 {
+	font-size: 70px;
+	margin-top: 120px;
+	font-family: 'DM Sans', sans-serif;
+	font-weight: 900;
+}
+
+.blog-top-content p {
+	margin: 20px auto;
+	margin-top: 30px;
+	font-weight: 100;
+	line-height: 40px;
+	font-size: 24px;
+	color: #fff;
+	font-family: 'DM Sans', sans-serif;
+}
+
+.blog-top-content button {
+	background: #4F9BE2;
+	width: 300px;
+	padding: 15px 0;
+	text-align: center;
+	margin: 25px 10px;
+	border-radius: 25px;
+	font-weight: bold;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	font-family: 'DM Sans', sans-serif;
+	
+}
