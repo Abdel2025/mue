@@ -8,7 +8,7 @@
 
 .blog-top {
 	width: 100%;
-	height: 100vh;
+	height: 80vh;
 	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(office.jpg);
 	background-size: cover;
 	background-position: center;
@@ -106,4 +106,112 @@ nav {
 	cursor: pointer;
 	font-family: 'DM Sans', sans-serif;
 	
+}
+
+/* ------------------------- ARTICLES ---------------------- */
+
+.articles {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 60px;
+}
+
+.articles h1 {
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 60px;
+}
+
+.row {
+	margin-top: 3%;
+	display: flex;
+	grid-column-gap: 24px;
+	
+}
+
+.article {
+	flex-basis: 40%;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	text-align: left;
+	position: relative;
+}
+
+.article img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+	cursor: pointer;
+	display: block;
+	
+}
+
+.article p {
+	padding: 0;
+	font-family: 'DM Sans', sans-serif;
+	cursor: pointer;
+}
+
+.article h3 {
+	margin-top: 16px;
+	margin-bottom: 15px;
+	text-align: left;
+	cursor: pointer;
+}
+
+.layer {
+	background: transparent;
+	height: 77%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left:0;
+	transition: 0.5s;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.layer:hover {
+	background: rgba(226,0,0,0.4);
+}
+
+
+/* ----------------- CONTACT US ---------------- */
+
+.contact-us {
+	padding: 20px;
+	text-align: center;
+	background-color: #D5F3FE;
+	color: white;
+	margin: auto;
+	height: 500px;
+	width: 100%;
+	margin-top: 70px;
+}
+
+.contact-us h1 {
+	display: inline-block;
+	margin: auto;
+	font-size: 46px;
+	margin-top: 60px;
+	font-family: 'DM Sans', sans-serif;
+	color: #192F7A;
+	text-shadow: 1px 1px #80869A;
+}
+
+.contact-us button {
+	background: #4F9BE2;
+	width: 400px;
+	height: 60px;
+	padding: 15px 0;
+	text-align: center;
+	margin: 50px 0px;
+	border-radius: 10px;
+	font-weight: bold;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	font-family: 'DM Sans', sans-serif;
+	font-size: 18px;
 }
