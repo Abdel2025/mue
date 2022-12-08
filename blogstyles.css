@@ -78,7 +78,7 @@ nav {
 
 .blog-top-content h1 {
 	font-size: 70px;
-	margin-top: 120px;
+	margin-top: 100px;
 	font-family: 'DM Sans', sans-serif;
 	font-weight: 900;
 }
@@ -160,7 +160,7 @@ nav {
 
 	.blog-top-content h1 {
 		font-size: 70px;
-		margin-top: 80px;
+		margin-top: 0px;
 		font-family: 'DM Sans', sans-serif;
 		font-weight: 900;
 }
@@ -292,7 +292,7 @@ nav {
 
 @media(max-width: 700px) {
 	.contact-us {
-		width: 90%;
+		width: 100%;
 	}
 	.contact-us h1 {
 		display: inline-block;
@@ -302,6 +302,7 @@ nav {
 		font-family: 'DM Sans', sans-serif;
 		color: #192F7A;
 		text-shadow: 1px 1px #80869A;
+		padding: 20px;
 	}
 }
 
@@ -327,6 +328,13 @@ nav {
 	
 }
 
+.fa-facebook-f, .fa-instagram, .fa-youtube {
+		color: #f44336;
+		margin: 0px 40px 0 40px;
+		cursor: pointer;
+		padding: 18px 0;
+	}	
+
 
 @media(max-width: 700px) {
 	.follow-us {
@@ -343,7 +351,7 @@ nav {
 	}
 	.fa-facebook-f, .fa-instagram, .fa-youtube {
 		color: #f44336;
-		margin: 0 10px;
+		margin: 30px 20px 0 20px;
 		cursor: pointer;
 		padding: 18px 0;
 	}
@@ -398,15 +406,18 @@ nav {
 	font-weight: 600;
 }
 
-.fa-facebook-f, .fa-instagram, .fa-twitter, .fa-linkedin-in, .fa-youtube {
-	color: #f44336;
-	margin: 0 50px;
-	cursor: pointer;
-	padding: 18px 0;
-}
-
 .fa-heart {
 	color: #f44336;
 }
 
-
+@media(max-width: 700px) {
+	.footer ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 10px;
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Rubik', sans-serif;
+	margin-bottom: 30px;
+}
+}
