@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="with=device-width, initial-scale=1.0">
+		<title>Our Services</title>
+		<link rel="stylesheet" href="contactusstyles.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/2f3db88149.js" crossorigin="anonymous"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+	
+	<!---------------------------------- CONTACT US TOP SECTION -------------------------------------->
+	
+	<section class="contact-us-top">
+		<nav>
+			<a href="Website.html">
+				<img style="width: 300px;" src="mue-logo5.png" class="logo">
+			</a>
+			<div class="nav-links" id="navLinks">
+				<div class="close" onclick="hideMenu()">
+				<i class="fa-solid fa-xmark"></i>
+				</div>
+					<ul>
+						<li><a href="Website.html">Home</a></li>
+						<li><a href="aboutus.html">About</a></li>
+						<li><a href="services.html">Services</a></li>
+						<li><a href="contactus.html">Contact Us</a></li>
+						<li><a href="blog.html">Blog</a></li>
+					</ul>
+			</div>
+			<div class="bar">
+				<i class="fas fa-bars fa-2x" onclick="showMenu()"></i>
+			</div>
+			
+		</nav>
+		
+		<div class="contact-us-top-content">
+			<h1>CONTACT US</h1>
+			<p>Start Your Journey By <br>Booking Your One-To-One Consultation With Us</p>
+			<div>
+			<button type="button" onclick="window.location.href = 'https://mue.youcanbook.me/';">BOOK YOUR CONSULTATION NOW</button>
+			</div>
+		</div>
+		
+	</section>
+	
+	<!------------------------------------------ CONTACT US ------------------------------------------------>
+	
+	<section class="contact-us">
+		<div class="contact-us-header">
+			<h1>Contact us so we can help you make <br>your dream come true!</h1>
+		</div>
+		<h2 style="font-size: 36px; font-weight: 300;">Let Us Help You in Your Journey!</h2>
+	<div class="row">
+	
+		<div class="form-side">
+			<div class="form-text">
+			<p>“The team at MUE Consulting are great. They assisted me to join the university of my choice, and they also helped me get a very good scholarship”</p>
+			<h4>Mehdi Adam</h4>
+			<h5>Full-Bright Scholarship Student, Harvard University</h5>
+			</div>
+		</div>
+		
+		<div class="contact-us-form">
+			<form onsubmit="sendEmail(); reset(); return false;">
+				
+				<input type="text" id="name" placeholder="Your Name" required>
+				<input type="email" id="email" placeholder="Email id" required>
+				<input type="tel" id="phone" placeholder="phone no." required>
+				<textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
+				<button type="submit"><span></span>Send</button>
+			</form>
+		</div>
+	</div>
+	
+	</section>
+	
+	
+		<!------------------------------------------- FOOTER ----------------------------------->
+		<section class="footer">
+			<ul>
+				<li><a href="Website.html">Home</a></li>
+				<li><a href="aboutus.html">About</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="contactus.html">Contact Us</a></li>
+				<li><a href="blog.html">Blog</a></li>
+			</ul>
+			<div class="icons">
+				<a href="https://www.facebook.com/MoroccoUSAEdu" title="Facebook Link"><i class="fa-brands fa-facebook-f"></i></a>
+				<a href="https://www.instagram.com/morocco.usa.education/" title="Instagram Link"><i class="fa-brands fa-instagram"></i></a>
+				<a href="" title="Twitter Link"><i class="fa-brands fa-twitter"></i></a>
+				<a href="https://www.linkedin.com/company/moroccousaeducation/" title="Linkedin Link"><i class="fa-brands fa-linkedin-in"></i></a>
+				<a href="https://www.youtube.com/channel/UCD1M7JF97PJB77IVnKYHiRQ" title="YouTube Link"><i class="fa-brands fa-youtube"></i></a>
+			</div>
+		
+			<p>Made with <i class="fa-solid fa-heart"></i> by Abdeljalil Jouhrani</p>
+
+		</section>
+		
+		
+		<!----------------------------------- JavaScript for Toggle Menu ------------------------------->
+		<script>
+			var navLinks = document.getElementById("navLinks");
+			function showMenu(){
+				navLinks.style.right = "0";
+			}
+			function hideMenu(){
+				navLinks.style.right = "-200px";
+			}
+		</script>
+	
+		
+	</body>
+</html>
+
+	
