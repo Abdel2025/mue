@@ -649,6 +649,8 @@ p {
 	border-radius: 0px;
 	text-align: center;
 	padding: 40px 0;
+	display: flex;
+	flex-direction: column;
 }
 
 .cta h1 {
@@ -717,33 +719,36 @@ p {
 }
 
 
-form {
-	margin: auto;
+.form {
+	margin-left: 550px;
 	display: flex;
-	flex-direction: column;
-	padding: 2vw 4vw;
-	width: 90%;
-	max-width: 600px;
+	flex-direction: row;
+	padding: 40px;
+	width: 100%;
 	border-radius: 10px;
 }
 
-form h3 {
-	color: #555;
-	font-weight: 800;
-	margin-bottom: 20px;
+.form h1 {
+	color: #fff;
+	font-weight: 100;
+	margin-top: 100px;
 }
 
-form input {
+.form-header {
+	display: flex;
+}
+
+.form input {
 	border: 0;
 	margin: 10px 0;
-	padding: 20px;
+	padding: 10px;
 	outline: none;
 	background: #f5f5f5;	
 	font-size: 16px;
-		
+	width: 400px;	
 }
 
-form textarea {
+.form textarea {
 	border: 0;
 	margin: 10px 0;
 	padding: 20px;
@@ -752,8 +757,8 @@ form textarea {
 	font-size: 16px;
 	min-height: 8em;
 	max-height: 8em;
-	min-width: 560px;
-	max-width: 560px;
+	min-width: 400px;
+	max-width: 400px;
 	}
 
 form button {
@@ -775,7 +780,6 @@ form button:hover {
 	border: 0;
 	box-shadow: 0 0 20px 0px rgb(255, 73, 71, 0.2);
 }
-
 
 
 @media(max-width: 700px) {
@@ -907,17 +911,3 @@ form button:hover {
 		margin-bottom: 30px;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
