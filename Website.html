@@ -10,7 +10,16 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
 		<script src="https://kit.fontawesome.com/2f3db88149.js" crossorigin="anonymous"></script>
-		
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script src="index.js"></script>
+		<script type="text/javascript"
+        	src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+		</script>
+		<script type="text/javascript">
+		(function(){
+		emailjs.init("5sjA2wOsVzsG6N99H");
+		})();
+		</script>
 	</head>
 	<body>
 	
@@ -232,36 +241,40 @@
 		<h3>Othmane Boutayeb</h3>
 		<h3>President of MUE</h3>
 
-
 		</section>
+	
 
-		<form onsubmit="sendEmail(); reset(); return false;">
-			<h1>Let Us Help You in Your Journey!</h1>
-			<input type="text" id="name" placeholder="Your Name" required>
-			<input type="email" id="email" placeholder="Email id" required>
-			<input type="tel" id="phone" placeholder="phone no." required>
-			<textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
-			<button type="submit"><span></span>Send</button>
-		</form>
 
-	<script src="https://smtpjs.com/v3/smtp.js"></script>
-		<script>
-			function sendEmail() {
-				Email.send({
-					Host: "smtp.gmail.com",
-					Username : "abdeljalil.jouhrani@gmail.com",
-					Password: "password",
-					To: 'abdeljalil.jouhrani@gmail.com',
-					From: document.getElementById("email").value,
-					Subject: "New Contact From Inquiry",
-					Body: "And this is the body"
-				}).then(
-				message => alert(message)
-				);
-			}
-		</script>	
+			
+		<div class="form">
+
+      		<div class="row">
+        			<div class="form-header">
+          			
+        			</div>
+        		<div style="margin-top: 60px; margin-left: 150px;">
+				<p style="font-size: 30px; margin-bottom: 60px; color: #fff;">Let Help You In Your Journey</p>
+          			<div class="form-group">
+            			<h5 style="color: #fff;" for="name">Name</h5>
+            			<input type="text" class="form-control" id="name" placeholder="Enter name"/>
+          			</div>
+          			<div class="form-group">
+            			<h5 style="color: #fff;" for="email">Email</h5>
+            			<input type="email" class="form-control" id="email" placeholder="Enter email"/>
+          			</div>
+          			<div class="form-group">
+            			<h5 style="color: #fff;" for="message">Message</h5>
+            			<textarea class="form-control" id="message" rows="3"></textarea>
+          			</div>
+          		<button class="btn btn-primary" onclick="sendMail()">Submit</button>
+        		</div>
+      		</div>
+    	</div>
+	
 	
 	</section>
+
+	
 
 	<!--------------------------------------- FOOTER -------------------------------------------->
 	<section class="footer">
