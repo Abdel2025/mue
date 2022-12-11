@@ -111,6 +111,11 @@ nav {
 	
 }
 
+.about-section-button:hover {
+	box-shadow: 0 0 20px 0px rgb(0, 0, 0, 0.5);
+}
+
+
 .about-section button:hover {
 	box-shadow: 0 0 20px 0px rgb(0, 0, 0, 0.5);
 }
