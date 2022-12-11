@@ -212,7 +212,7 @@ button:hover {
 .services p {
 	font-family: 'DM Sans', sans-serif;
 	font-size: 36px;
-	color: #1B1822;
+	color: #000000;
 	line-height: 64px;
 	font-weight: 300;
 	text-align: center;
@@ -226,8 +226,9 @@ button:hover {
 	line-height: 22px;
 	padding: 20px;
 	text-align: center;
-	color: #fff;
+	color: #000000;
 	font-family: 'DM Sans', sans-serif;
+	
 }
 
 p {
@@ -241,7 +242,7 @@ p {
 
 .service-col {
 	flex-basis: 300px;
-	background: #2E93FF;
+	background: #fff;
 	border-radius: 10px;
 	margin-bottom: 20px;
 	width: 30px;
@@ -261,7 +262,8 @@ p {
 }
 
 .fa-passport, .fa-sack-dollar, .fa-paste, .fa-school-circle-check {
-	color: #fff;;
+	color: #192F7A;
+	margin-bottom: 0;
 }
 
 .btnabout {
@@ -525,7 +527,7 @@ p {
 
 .articles .layer {
 	background: transparent;
-	height: 75%;
+	height: 72%;
 	width: 100%;
 	position: absolute;
 	top: 0;
@@ -546,9 +548,15 @@ p {
 	margin-bottom: 40px;
 }
 
+.testimonials p {
+	color: #000000;
+}
+
 .testimonials h1 {
-	font-weight: 600;
-	font-size: 46px;
+	font-weight: 550;
+	font-size: 50px;
+	font-family: 'DM Sans', sans-serif;
+	color: #000000;
 }
 
 .testimonials-col {
@@ -556,13 +564,14 @@ p {
 	border-radius: 10px;
 	margin-bottom: 5%;
 	text-align: left;
-	background: #EAF2EF;
+	background: #D5F3FE;
 	padding: 20px 12px;
 	display: flex;
 	width: 30px;
 	box-sizing: border-box;
 	transition: 0.5s;
 	margin-left: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 /*
@@ -592,7 +601,7 @@ p {
 	margin-left: 10px;
 	margin-right: 15px;
 	font-family: 'DM Sans', sans-serif;
-	
+	color: #000000;
 }
 
 .testimonials-col h3 {
