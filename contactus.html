@@ -2,25 +2,32 @@
 <html>
 	<head>
 		<meta name="viewport" content="with=device-width, initial-scale=1.0">
-		<title>Our Services</title>
-		<link rel="stylesheet" href="contactusstyles.css">
+		<title>MUE Welcome Page</title>
+		<link rel="stylesheet" href="websitestyles.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
 		<script src="https://kit.fontawesome.com/2f3db88149.js" crossorigin="anonymous"></script>
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script src="index.js"></script>
+		<script type="text/javascript"
+        	src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+		</script>
+		<script type="text/javascript">
+		(function(){
+		emailjs.init("5sjA2wOsVzsG6N99H");
+		})();
+		</script>
 	</head>
 
 	<body>
 	
 	<!---------------------------------- CONTACT US TOP SECTION -------------------------------------->
 	
-	<section class="contact-us-top">
-		<nav>
+	<section class="contact-us-top" style="width: 100%; height: 90vh; background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(office.jpg); background-size: cover; background-position: center;">
+		<nav style="width: 75%; margin: auto; padding: 35px 0; display: flex; align-items: center; justify-content: space-between;">
 			<a href="Website.html">
 				<img style="width: 300px;" src="mue-logo5.png" class="logo">
 			</a>
@@ -28,7 +35,7 @@
 				<div class="close" onclick="hideMenu()">
 				<i class="fa-solid fa-xmark"></i>
 				</div>
-					<ul>
+					<ul style="list-style: none; display: inline-block; margin: 0 20px; position: relative; font-family: 'DM Sans', sans-serif;">
 						<li><a href="Website.html">Home</a></li>
 						<li><a href="aboutus.html">About</a></li>
 						<li><a href="services.html">Services</a></li>
@@ -42,11 +49,12 @@
 			
 		</nav>
 		
-		<div class="contact-us-top-content">
-			<h1>CONTACT US</h1>
-			<p>Start Your Journey By <br>Booking Your One-To-One Consultation With Us</p>
+		<div class="contact-us-top-content" style="width: 100%; position: relative; top: 0px; text-align: center; color: #fff;">
+			<h1 style="font-size: 70px; margin-top: 120px; font-family: 'DM Sans', sans-serif; font-weight: 700;">CONTACT US</h1>
+			<p style="margin: 20px auto; margin-top: 30px; font-weight: 100; line-height: 40px; font-size: 24px; color: #fff; font-family: 'DM Sans', sans-serif;">Start Your Journey By <br>Booking Your One-To-One Consultation With Us</p>
 			<div>
-			<button type="button" onclick="window.location.href = 'https://mue.youcanbook.me/';">BOOK YOUR CONSULTATION NOW</button>
+			<button style="background: #4F9BE2; width: 300px; padding: 15px 0; text-align: center; margin: 25px 10px; border-radius: 25px; font-weight: bold; border: none; color: #fff; cursor: pointer;
+	font-family: 'DM Sans', sans-serif; font-size: 14px;"type="button" onclick="window.location.href = 'https://mue.youcanbook.me/';">BOOK YOUR CONSULTATION NOW</button>
 			</div>
 		</div>
 		
@@ -54,38 +62,42 @@
 	
 	<!------------------------------------------ CONTACT US ------------------------------------------------>
 	
-	<section class="contact-us">
+	<section class="contact-us" style="text-align: center; margin: auto; width: 80%; margin-bottom: 20px; font-family: 'DM Sans', sans-serif; padding: 10px;">
 		<div class="contact-us-header">
-			<h1>Contact us so we can help you make <br>your dream come true!</h1>
+			<h1 style="text-align: center; margin-top: 20px; margin-bottom: 40px; font-family: 'DM Sans', sans-serif; font-size: 50px; font-weight: 550;">Contact us so we can help you make <br>your dream come true!</h1>
 		</div>
-		<h2 style="font-size: 36px; font-weight: 300;">Let Us Help You in Your Journey!</h2>
-	<div class="row">
+		<h2 style="font-size: 36px; font-weight: 300; text-align: center; margin-top: 40px; margin-bottom: 0px; font-family: 'DM Sans', sans-serif; font-weight: 400;">Let Us Help You in Your Journey!</h2>
+	<div style="display: flex;">
 	
-		<div class="form-side">
-			<div class="form-text">
-			<p>“The team at MUE Consulting are great. They assisted me to join the university of my choice, and they also helped me get a very good scholarship”</p>
-			<h4>Mehdi Adam</h4>
-			<h5>Full-Bright Scholarship Student, Harvard University</h5>
+		<div class="form-side" style="display: inline-block; margin-bottom: 16px; padding: 0 40px; width: 55%; margin-top: 0px;">
+			<div class="form-text" style="margin-top: 120px; font-style: italic;">
+			<p style="font-size: 32px; padding: 0 70px; text-align: justify; color: #000000; line-height: 40px;">“The team at MUE Consulting are great. They assisted me to join the university of my choice, and they also helped me get a very good scholarship”</p>
+			<h4 style="margin-top: 40px; text-align: left; margin-left: 70px; font-size: 24px; font-weight: 600;">Mehdi Adam</h4>
+			<h5 style="margin-top: 10px; text-align: left; margin-left: 70px; font-size: 24px; font-weight: 400;">Full-Bright Scholarship Student, Harvard University</h5>
 			</div>
 		</div>
 		
-		<div class="contact-us-form">
-			<form onsubmit="sendEmail(); reset(); return false;">
-				
-				<input type="text" id="name" placeholder="Your Name" required>
-				<input type="email" id="email" placeholder="Email id" required>
-				<input type="tel" id="phone" placeholder="phone no." required>
-				<textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
-				<button type="submit"><span></span>Send</button>
-			</form>
-		</div>
+		<div class="row">
+        		<div style="margin-top: 60px; margin-left: 150px;">
+          			<div class="form-group">
+            			<input style="border: 0; margin: 10px 0; padding: 20px; outline: none; background: #f5f5f5;	font-size: 16px;" type="text" class="form-control" id="name" placeholder="Enter name"/>
+          			</div>
+          			<div class="form-group">
+            			<input style="border: 0; margin: 10px 0; padding: 20px; outline: none; background: #f5f5f5;	font-size: 16px;" type="email" class="form-control" id="email" placeholder="Enter email"/>
+          			</div>
+          			<div class="form-group">
+            			<textarea style="border: 0; margin: 10px 0; padding: 20px; outline: none; background: #f5f5f5; font-size: 16px; min-height: 8em; max-height: 8em; min-width: 560px; max-width: 560px;" class="form-control" id="message" rows="3" placeholder="Enter message"></textarea>
+          			</div>
+          		<button style="padding: 15px; background: #192F7A; color: #fff; font-size: 18px; border-radius: 0; border: none; outline: none; cursor: pointer; margin-left: 50px; margin-top: 20px; font-family: 'DM Sans', sans-serif; width: 300px; margin-bottom: 60px;" class="btn btn-primary" onclick="sendMail()">Submit</button>
+        		</div>
+      		</div>
 	</div>
 	
 	</section>
 	
 	
 		<!------------------------------------------- FOOTER ----------------------------------->
-		<section class="footer">
+		<section class="footer" style="padding: 25px 0 1px;">
 			<ul>
 				<li><a href="Website.html">Home</a></li>
 				<li><a href="aboutus.html">About</a></li>
