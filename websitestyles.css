@@ -92,13 +92,15 @@ nav {
 	text-align: center;
 	margin: 20px 10px;
 	border-radius: 25px;
-	font-weight: bold;
+	font-weight: 700;
 	border: 2px solid #4F9BE2;
 	background: transparent;
 	color: #fff;
 	cursor: pointer;
 	position: relative;
 	overflow: hidden;
+	font-size: 12px;
+	height: 50px; 
 }	
 
 span {
@@ -248,7 +250,7 @@ p {
 	transition: 0.5s;
 	box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 	margin-left: 20px;
-	height: 450px;
+	height: 500px;
 }
 
 .schoolicon {
@@ -406,7 +408,9 @@ p {
 
 .btndestination:hover {
 	color: #f44336;
+	text-decoration: none;
 }
+
 
 @media(max-width: 700px) {
 	.btndestination {
@@ -429,8 +433,8 @@ p {
 /* --------------------------------------------- ARTICLES ---------------------------------------------- */
 
 .articles {
-	width: 80%;
-	margin: auto;
+	width:80%;
+	margin: 0 250px;
 	text-align: center;
 	padding-top: 10px;
 }
@@ -439,6 +443,7 @@ p {
 	font-size: 46px;
 	font-weight: 700;
 	margin-bottom: 60px;
+	margin-right: 100px;
 }
 
 .row {
@@ -449,11 +454,12 @@ p {
 }
 
 .article {
-	flex-basis: 40%;
+	flex-basis: 30%;
 	border-radius: 10px;
 	margin-bottom: 10px;
 	text-align: left;
 	position: relative;
+	
 }
 
 .article img {
@@ -480,7 +486,7 @@ p {
 
 .articles .layer {
 	background: transparent;
-	height: 77%;
+	height: 71%;
 	width: 100%;
 	position: absolute;
 	top: 0;
@@ -594,6 +600,9 @@ p {
 	text-align: left;
 	margin-left: 10px;
 	margin-bottom: 10px;
+	font-size: 24px;
+	font-weight: 600;
+	font-family: 'DM Sans', sans-serif;
 }
  
 .testimonials-col:hover {
@@ -649,8 +658,6 @@ p {
 	border-radius: 0px;
 	text-align: center;
 	padding: 40px 0;
-	display: flex;
-	flex-direction: column;
 }
 
 .cta h1 {
@@ -719,36 +726,33 @@ p {
 }
 
 
-.form {
-	margin-left: 550px;
+form {
+	margin: auto;
 	display: flex;
-	flex-direction: row;
-	padding: 40px;
-	width: 100%;
+	flex-direction: column;
+	padding: 2vw 4vw;
+	width: 90%;
+	max-width: 600px;
 	border-radius: 10px;
 }
 
-.form h1 {
-	color: #fff;
-	font-weight: 100;
-	margin-top: 100px;
+form h3 {
+	color: #555;
+	font-weight: 800;
+	margin-bottom: 20px;
 }
 
-.form-header {
-	display: flex;
-}
-
-.form input {
+form input {
 	border: 0;
 	margin: 10px 0;
-	padding: 10px;
+	padding: 20px;
 	outline: none;
 	background: #f5f5f5;	
 	font-size: 16px;
-	width: 400px;	
+		
 }
 
-.form textarea {
+form textarea {
 	border: 0;
 	margin: 10px 0;
 	padding: 20px;
@@ -757,8 +761,8 @@ p {
 	font-size: 16px;
 	min-height: 8em;
 	max-height: 8em;
-	min-width: 400px;
-	max-width: 400px;
+	min-width: 560px;
+	max-width: 560px;
 	}
 
 form button {
@@ -780,6 +784,7 @@ form button:hover {
 	border: 0;
 	box-shadow: 0 0 20px 0px rgb(255, 73, 71, 0.2);
 }
+
 
 
 @media(max-width: 700px) {
@@ -911,3 +916,17 @@ form button:hover {
 		margin-bottom: 30px;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
