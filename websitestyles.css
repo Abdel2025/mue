@@ -754,13 +754,10 @@ p {
 }
 
 
-form {
-	margin: auto;
+.form {
 	display: flex;
-	flex-direction: column;
-	padding: 2vw 4vw;
-	width: 90%;
-	max-width: 600px;
+	padding: 2vw 35vw;
+	width: 10%;
 	border-radius: 10px;
 }
 
@@ -780,7 +777,7 @@ form input {
 		
 }
 
-form textarea {
+.form-group textarea {
 	border: 0;
 	margin: 10px 0;
 	padding: 20px;
@@ -820,14 +817,14 @@ form button:hover {
 		font-size: 24px;
 	}
 	.quote img {
-	margin-left: 160px;
+	margin-left: 170px;
 	margin-top: 20px;
 	border-radius: 50%;
 	width: 75px;
 	height: 75px;
 	}
 	.quote {
-	width: 90%;
+	width: 100%;
 	height: 350px;
 	}
 	.quote p {
@@ -835,7 +832,7 @@ form button:hover {
 	text-align: center;
 	display: inline-block;
 	margin-top: 40px;
-	padding: 0 5px;
+	padding: 0px;
 	}
 	.quote h3 {
 	text-align: center;
@@ -847,17 +844,18 @@ form button:hover {
 	color: #f44336;
 	}
 	
-	form {
-	margin: auto;
+	.form {
 	display: flex;
-	flex-direction: column;
-	padding: 1vw 4vw;
-	width: 90%;
-	max-width: 600px;
+	padding: 0vw 10vw;
+	width: 40%;
 	border-radius: 10px;
 	}
+	
+	.form-group input {
+		width: 100%;
+	}
 
-	form textarea {
+	.form-group textarea {
 	border: 0;
 	margin: 10px 0;
 	padding: 20px;
@@ -866,8 +864,11 @@ form button:hover {
 	font-size: 16px;
 	min-height: 8em;
 	max-height: 8em;
-	min-width: 405px;
-	max-width: 405px;
+	min-width: 385px;
+	max-width: 385px;
+	}
+	.form-input p {
+		line-height: 40px;
 	}
 	
 }
