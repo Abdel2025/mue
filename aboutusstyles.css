@@ -86,9 +86,10 @@ nav {
 	margin-top: 60px;
 }
 
+
 .about-section-content p {
 	margin: 30px auto;
-	font-weight: 100;
+	font-weight: 200;
 	line-height: 25px;
 	font-size: 28px;
 	line-height: 50px;
@@ -135,7 +136,7 @@ nav {
 		right: 30px;
 	}
 	.content h1 {
-		font-size: 20px;
+		font-size: 16px;
 	}
 	.nav-links ul li {
 		display: block;
@@ -221,8 +222,8 @@ nav {
 
 .team-members {
 	text-align: center;
-	margin: auto;
-	width: 60%;
+	margin: 0 240px;
+	width: 78%;
 	margin-bottom: 70px;
 	font-family: 'DM Sans', sans-serif;
 	
@@ -239,7 +240,8 @@ nav {
 	margin-top: 60px;
 	margin-bottom: 50px;
 	font-family: 'DM Sans', sans-serif;
-	font-size: 36px;
+	font-size: 40px;
+	font-weight: 600;
 }
 
 .row {
@@ -267,12 +269,14 @@ nav {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	font-family: 'DM Sans', sans-serif;
+	font-weight: 600;
 }
 
 .team-members-container h4{
 	margin-bottom: 20px;
 	color: #8E8E8E;
 	font-family: 'DM Sans', sans-serif;
+	font-weight: 600;
 }
 
 .team-members-container p {
@@ -305,22 +309,25 @@ nav {
 @media(max-width: 700px) {
 .team-members {
 	text-align: center;
-	margin: auto;
-	width: 80%;
+	margin: 0 10px;
+	width: 100%;
 	margin-bottom: 70px;
 	font-family: 'DM Sans', sans-serif;
-	
 }
 
-.row {
-	flex-direction: column;
-}
 
 .column {
-	flex-basis: 300px;
 	margin-bottom: 16px;
-  	padding: 0 8px 10px;
+  	padding: 0 6px 10px;
+	margin: 10px;
+	width: 90%;
 }
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+
 
 }
 
@@ -336,14 +343,17 @@ nav {
 	height: 240px;
 }
 
+
+
 .stats-rect h1 {
 	display: inline-block;
-	margin: 130px;
+	margin: 180px;
 	font-size: 46px;
 	margin-top: 55px;
 	font-family: 'DM Sans', sans-serif;
 	color: #192F7A;
 	text-shadow: 1px 1px #80869A;
+	font-weight: 700;
 }
 
 @media(max-width: 700px) {
@@ -356,6 +366,7 @@ nav {
 	margin: auto;
 	height: 700px;
 }
+
 
 .stats-rect h1 {
 	display: block;
@@ -379,19 +390,26 @@ nav {
 	width: 60%;
 	margin-bottom: 6px;
 	margin-top: 80px;
+	
 }
 
 .special-mue-header {
-	padding: 20px;
+	padding: 5px;
+}
+
+.special-row {
+	display: flex;
 }
 
 .special-mue-header p {
-	text-align: center;
-	margin-top: 0px;
-	margin-bottom: 50px;
-	font-family: 'DM Sans', sans-serif;
-	font-size: 36px;
-	font-weight: 500;
+	color: black; 
+	font-weight: 600; 
+	text-align: center; 
+	margin-top: 0px; 
+	margin-bottom: 50px; 
+	font-family: 'DM Sans', sans-serif; 
+	font-size: 50px; 
+	color: #000000;
 }
 
 .special-mue-icon {
@@ -406,6 +424,7 @@ nav {
 
 .special-mue-column {
 	width: 100%;
+	display: inline-block;
 }
 
 .special-mue-container2 {
@@ -424,8 +443,9 @@ nav {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	margin: 16px;
 	height: 400px;
-	
+	display: block;
 }
+
 
 
 @media(max-width: 700px) {
@@ -436,6 +456,11 @@ nav {
 		margin-bottom: 6px;
 		margin-top: 80px;
 	}
+.special-row {
+	flex-direction: column;
+}
+	
+
 	.special-mue-container2 p {
 		margin-top: 60px;
 		padding: 60px 40px 0px;
@@ -476,7 +501,7 @@ nav {
 .othmane-say {
 	text-align: left;
 	margin-left: 780px;
-	margin-top: 15px;
+	margin-top: 5px;
 	font-family: 'DM Sans', sans-serif;
 	font-size: 20px;
 	padding: 0px 560px 0px 0px;
@@ -488,6 +513,7 @@ nav {
 	color: #192F7A;
 	font-size: 24px;
 	font-family: 'DM Sans', sans-serif;
+	font-weight: 600;
 }
 
 @media(max-width: 700px) {
