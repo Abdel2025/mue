@@ -240,7 +240,7 @@ nav {
   display: inline-block;
   margin-bottom: 16px;
   padding: 0 8px 10px;
-  
+  width: 450px;
 }
 
 .card {
