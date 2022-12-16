@@ -204,7 +204,7 @@ button:hover {
 .service-col h3 {
 	text-align: center;
 	margin: auto;
-	margin-top: 25px;
+	margin-top: 20px;
 	color: #fff;
 	font-family: 'DM Sans', sans-serif;
 }
@@ -217,7 +217,7 @@ button:hover {
 	font-weight: 300;
 	text-align: center;
 	margin-top: 20px;
-	margin-bottom: 60px;
+	margin-bottom: 20px;
 }
 
 .service-col p {
@@ -245,19 +245,19 @@ p {
 	background: #fff;
 	border-radius: 10px;
 	margin-bottom: 20px;
-	width: 30px;
+	width: 150px;
 	padding: 0 20px;
 	box-sizing: border-box;
 	transition: 0.5s;
 	box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 	margin-left: 20px;
-	height: 500px;
+	height: 550px;
 }
 
 .schoolicon {
 	margin: auto;
-	margin-top: 100px;
-	margin-bottom: 100px;
+	margin-top: 80px;
+	margin-bottom: 60px;
 	color: #fff;
 }
 
@@ -265,6 +265,27 @@ p {
 	color: #192F7A;
 	margin-bottom: 0;
 }
+
+.service-col button {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	padding: 12px 30px;
+	background: #192F7A;
+	cursor: pointer;
+	align-items: center;
+	font-family: 'DM Sans', sans-serif;
+	margin: auto;
+	border: #fff;
+	font-size: 16px;
+	margin-bottom: 0px;
+	width: 100%;
+}
+
+.service-col button:hover {
+	box-shadow: 0 0 4px 0px rgb(0, 0, 0, 0.2);
+}
+
 
 .btnabout {
 	display: inline-block;
@@ -290,7 +311,7 @@ p {
 	flex-direction: column;
 }
 .service-col {
-	flex-basis: 300px;
+	flex-basis: 600px;
 	background: #fff;
 	border-radius: 10px;
 	margin-bottom: 40px;
@@ -300,7 +321,7 @@ p {
 	transition: 0.5s;
 	box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 	margin: 15px 5px;
-	height: 500px;
+	height: 600px;
 }
 .service-col p {
 	font-size: 16px;
@@ -366,6 +387,26 @@ p {
 	left:0;
 	transition: 0.5s;
 	
+}
+
+.layer button {
+	display: none;
+	padding: 12px 40px;
+	border: #fff;
+	width: 220px;
+	background: transparent;
+	border: 10px;
+}
+
+.layer:hover button {
+	bottom: 49%;
+	opacity: 1;
+	display: block;
+	margin: 650px 140px;
+	cursor: pointer;
+	font-family: 'DM Sans', sans-serif;
+	border: 2px solid #fff;
+	color: #fff;
 }
 
 .layer:hover {
@@ -437,6 +478,30 @@ p {
 	text-align: center;
 	padding-top: 80px;
 	margin-bottom: 20px;
+}
+
+.layer button {
+	display: none;
+	padding: 12px 40px;
+	border: #fff;
+	width: 220px;
+	background: transparent;
+	border: 10px;
+}
+
+.layer:hover button {
+	bottom: 49%;
+	opacity: 1;
+	display: block;
+	margin: 500px 100px;
+	cursor: pointer;
+	font-family: 'DM Sans', sans-serif;
+	border: 2px solid #fff;
+	color: #fff;
+}
+
+.layer:hover {
+	background : rgba(226,0,0,0.7);
 }
 }
 
