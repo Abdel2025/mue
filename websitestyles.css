@@ -243,7 +243,7 @@ p {
 .service-col {
 	flex-basis: 300px;
 	background: #fff;
-	border-radius: 10px;
+	border-radius: 0px;
 	margin-bottom: 20px;
 	width: 150px;
 	padding: 0 20px;
