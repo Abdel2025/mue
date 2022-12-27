@@ -79,7 +79,7 @@ nav {
 
 .services-top-content h1 {
 	font-size: 60px;
-	font-family: 'DM Sans', sans-serif;
+	font-family: 'Noe Display', sans-serif;
 	font-weight: 700;
 	text-align: center;
 	margin-top: 40px;
@@ -227,7 +227,7 @@ nav {
 	text-align: center;
 	margin-top: 40px;
 	margin-bottom: 50px;
-	font-family: 'DM Sans', sans-serif;
+	font-family: 'Noe Display', sans-serif;
 	font-size: 50px;
 	font-weight: 600;
 }
@@ -256,7 +256,8 @@ nav {
 .services-container h2 {
 	margin-top: 20px;
 	margin-bottom: 10px;
-	font-family: 'DM Sans', sans-serif;
+	font-family: 'Noe Display', sans-serif;
+	font-size: 26px;
 }
 
 .services-container p {
@@ -321,11 +322,19 @@ nav {
 .icon-card h1 {
 	font-size: 90px;
 	color: #192F7A;
+	font-family: 'Noe Display', sans-serif;
+}
+
+.icon-card p{
+	font-family: 'Noe Display', sans-serif;
+	font-size: 32px;
+	font-weight: 600;
 }
 
 .icon-text {
 	color: #192F7A;
 	font-size: 24px;
+	font-family: 'Noe Display', sans-serif;
 }
 
 @media(max-width: 700px) {
@@ -366,6 +375,7 @@ nav {
 
 .study-container-text h2 {
 	margin-bottom: 30px;
+	font-family: 'Noe Display', sans-serif;
 }
 
 .study-container img {
@@ -465,6 +475,7 @@ nav {
 .testimonials h1 {
 	font-size: 50px;
 	margin-bottom: 20px;
+	font-family: 'Noe Display', sans-serif;
 }
 
 
