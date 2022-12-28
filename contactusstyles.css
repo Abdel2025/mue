@@ -246,12 +246,17 @@ nav {
 	font-style: italic;
 }
 
+.form-text p {
+	font-family: 'DM Sans', sans-serif;
+}
+
 .form-text h4 {
 	margin-top: 40px;
 	text-align: left;
 	margin-left: 70px;
 	font-size: 24px;
 	font-weight: 600;
+	font-family: 'DM Sans', sans-serif;
 }
 
 .form-text h5 {
