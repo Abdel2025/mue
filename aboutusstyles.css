@@ -306,7 +306,7 @@ nav {
 }
 
 .team-members-container button:hover {
-	box-shadow: 0 0 4px 0px rgb(0, 0, 0, 0.2);
+	box-shadow: 0 0 4px 2px rgb(0, 0, 0, 0.4);
 }
 
 
@@ -438,15 +438,15 @@ nav {
 
 
 .special-mue-container2 p {
-	margin-top: 60px;
-	padding: 100px 40px 0px;
+	margin-top: 0px;
+	padding: 40px 40px 0px;
 	font-family: 'DM Sans', sans-serif;
 }
 
 .special-mue-card {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	margin: 16px;
-	height: 400px;
+	height: 450px;
 	display: block;
 }
 
@@ -693,8 +693,7 @@ form button {
 }
 
 form button:hover {
-	border: 0;
-	box-shadow: 0 0 4px 0px rgb(0, 0, 0, 0.2);
+	box-shadow: 0 0 4px 2px rgb(0, 0, 0, 0.4);
 }
 
 @media(max-width: 700px) {
