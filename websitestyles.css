@@ -71,7 +71,7 @@ nav {
 }
 
 .content h1 {
-	font-size: 86px;
+	font-size: 70px;
 	margin-top: 80px;
 	font-family: 'Noe Display', sans-serif;
 	font-weight: 700;
@@ -249,7 +249,7 @@ p {
 	padding: 0 20px;
 	box-sizing: border-box;
 	transition: 0.5s;
-	box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	margin-left: 20px;
 	height: 550px;
 }
@@ -400,6 +400,8 @@ p {
 	border: 10px;
 }
 
+
+
 .layer:hover button {
 	bottom: 49%;
 	opacity: 1;
@@ -410,6 +412,11 @@ p {
 	border: 2px solid #fff;
 	color: #fff;
 }
+
+.layer:hover button:hover {
+	background: #192F7A;
+}
+
 
 .layer:hover {
 	background : rgba(40,67,137,0.7);
@@ -561,21 +568,6 @@ p {
 	cursor: pointer;
 }
 
-.articles .layer {
-	background: transparent;
-	height: 72.5%;
-	width: 100%;
-	position: absolute;
-	top: 0;
-	left:0;
-	transition: 0.5s;
-	border-radius: 10px;
-	cursor: pointer;
-}
-
-.articles .layer:hover {
-	background: rgba(40,67,137,0.7);
-}
 
 @media(max-width: 700px) {
 .articles {
@@ -601,17 +593,7 @@ p {
 	position: relative;
 }
 
-.articles .layer {
-	background: transparent;
-	height: 72%;
-	width: 100%;
-	position: absolute;
-	top: 0;
-	left:0;
-	transition: 0.5s;
-	border-radius: 10px;
-	cursor: pointer;
-}
+
 }
 
 /*------------------------------------------ TESTIMONIALS ------------------------------------------ */
