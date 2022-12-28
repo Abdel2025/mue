@@ -284,7 +284,7 @@ nav {
 }
 
 .services-container button:hover {
-	box-shadow: 0 0 4px 0px rgb(0, 0, 0, 0.2);
+	box-shadow: 0 0 4px 2px rgb(0, 0, 0, 0.4);
 }
 
 @media(max-width: 700px) {
@@ -402,7 +402,11 @@ nav {
 	margin-bottom: 10px;
 	width: 60%;
 	margin-top: 30px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+
+}
+
+.study-in-america button:hover {
+	box-shadow: 0 0 4px 2px rgb(0, 0, 0, 0.4);
 }
 
 @media(max-width: 700px) {
@@ -591,9 +595,12 @@ nav {
 	border: #fff;
 	font-size: 16px;
 	width: 30%;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
 	margin-right: 40px;
 	margin-left: 40px;
+}
+
+.consultation button:hover {
+	box-shadow: 0 0 4px 2px rgb(0, 0, 0, 0.4);
 }
 
 @media(max-width: 700px) {
