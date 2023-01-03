@@ -298,6 +298,12 @@ nav {
   	padding: 0 8px 10px;
 }
 
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  padding: 50px 25px 10px;
+  width: 270px;
+}
 }
 
 
@@ -420,7 +426,7 @@ nav {
 	margin-top: 30px;
 }
 .study-container-text {
-	width: 380px;
+	width: 320px;
 	padding: 0px 40px 20px 0px;
 	font-size: 24px;
 	margin: auto;
@@ -606,36 +612,44 @@ nav {
 @media(max-width: 700px) {
 	.consultation {
 	display: block;
-	height: 550px;
+	height: 500px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	padding: 50px 0px;
+	padding: 50px 30px;
 	border-radius: 10px;
+
 }
 
 .consultation img {
 	width: 100px;
 	border-radius: 75%;
 	height: 100px;
-	margin-left: 120px;
+	margin-left: 90px;
 	
 }
-.consultation-card:first-of-type {
+	.consultation-card:first-of-type {
 	margin: auto;
-	padding: 0 15px 0 20px;
+	padding: 20px 0px;
 	min-width: 300px;
-	margin-left: 10px;
-	margin-top: 20px;
 }
 
 	.consultation-card {
 	text-align: center;
 	font-family: 'DM Sans', sans-serif;
 	font-size: 18px;
-	padding: 30px 5px 0 50px;
+	padding: 0px;
 	justify-content: center;
 	display: block;
 	margin-top: 20px;
+	margin: auto;
 	
+}
+
+.consultation-card h1 {
+	margin-right: 30px;
+}
+
+.consultation-card h3 {
+	margin-right: 30px;
 }
 
 .consultation button {
