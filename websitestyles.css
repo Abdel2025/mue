@@ -569,6 +569,24 @@ p {
 	cursor: pointer;
 }
 
+.articles button {
+	padding: 12px 40px;
+	border: #fff;
+	width: 220px;
+	background: #192F7A;
+	border: 10px;
+	cursor: pointer;
+	color: #fff;
+	margin-top: 50px;
+	margin-right: 120px;;
+}
+
+
+
+.articles button:hover {
+	box-shadow: 0 0 4px 2px rgb(0, 0, 0, 0.4);
+}
+
 
 @media(max-width: 700px) {
 .articles {
