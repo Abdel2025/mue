@@ -125,7 +125,7 @@ nav {
 @media(max-width: 700px) {
 	.about-section {
 		width: 100%;
-		height:100vh;
+		height:130vh;
 		background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(office.jpg);
 		background-size: cover;
 		background-position: center;
@@ -179,7 +179,7 @@ nav {
 		position: relative;
 		text-align: center;
 		color: #fff;
-		padding: 0px 60px 0px 70px;
+		padding: 0px 20px 70px;
 		}
 
 	.about-section-content h1 {
@@ -287,6 +287,11 @@ nav {
 	margin-bottom: 20px;
 	text-align: left;
 	font-family: 'DM Sans', sans-serif;
+}
+
+.team-members-container fa-square-instagram, fa-square-facebook, fa-linkedin {
+	padding: 0 50px;
+	color: #192F7A;
 }
 
 .team-members-container button {
@@ -467,9 +472,15 @@ nav {
 
 	.special-mue-container2 p {
 		margin-top: 60px;
-		padding: 60px 40px 0px;
+		padding: 20px 40px 0px;
 		font-family: 'DM Sans', sans-serif;
 	}
+	.special-mue-card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin: 16px;
+	height: 550px;
+	display: block;
+}
 
 }
 
@@ -524,7 +535,7 @@ nav {
 .ceo-bio {
 	margin-top: 80px;
 	background: #D5F3FE;
-	height: 750px;
+	height: 650px;
 	padding: 50px 0px;
 }
 .ceo-bio-othman img {
@@ -548,7 +559,7 @@ nav {
 	margin: auto;
 	font-family: 'DM Sans', sans-serif;
 	font-size: 18px;
-	padding: 30px 110px 500px 120px;
+	padding: 30px 50px 120px;
 	justify-content: center;
 }
 
@@ -600,7 +611,7 @@ form {
 }
 
 .form-inputs p {
-	font-size: 30px; 
+	font-size: 42px; 
 	margin-bottom: 60px; 
 	text-align: center; 
 	color: black;
@@ -731,6 +742,7 @@ form button:hover {
 	text-align: center; 
 	color: black;
 	margin-top: 40px;
+	margin-right: 60px;
 }
 
 .form-group input {
@@ -740,7 +752,7 @@ form button:hover {
 	outline: none; 
 	background: #f5f5f5;
 	font-size: 16px;
-	width: 370px;
+	width: 300px;
 }
 
 .form-group textarea {
@@ -752,9 +764,14 @@ form button:hover {
 	font-size: 16px; 
 	min-height: 8em; 
 	max-height: 8em; 
-	min-width: 370px; 
-	max-width: 370px;
+	min-width: 300px;
+	max-width: 300px;
 }
+
+.form-input p {
+		line-height: 50px;
+		margin-right: 50px;
+	}
 
 .form-inputs button {
 	padding: 15px; 
@@ -765,7 +782,7 @@ form button:hover {
 	border: none; 
 	outline: none; 
 	cursor: pointer; 
-	margin-left: 40px; 
+	margin-left: 0px; 
 	margin-top: 20px; 
 	font-family: 'DM Sans', sans-serif; 
 	width: 300px; 
