@@ -897,7 +897,7 @@ form button:hover {
 		font-size: 24px;
 	}
 	.quote img {
-	margin-left: 150px;
+	margin-left: 180px;
 	margin-top: 20px;
 	border-radius: 50%;
 	width: 75px;
@@ -920,7 +920,7 @@ form button:hover {
 	text-align: center;
 	display: inline-block;
 	margin-top: 40px;
-	padding: 0 50px;
+	padding: 0 10px;
 	}
 	.quote h3 {
 	text-align: center;
@@ -952,8 +952,8 @@ form button:hover {
 	font-size: 16px;
 	min-height: 8em;
 	max-height: 8em;
-	min-width: 350px;
-	max-width: 350px;
+	min-width: 400px;
+	max-width: 400px;
 	}
 	.form-input p {
 		line-height: 50px;
