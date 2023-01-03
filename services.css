@@ -299,10 +299,11 @@ nav {
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: 8px;
-  padding: 50px 25px 10px;
-  width: 270px;
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  	margin: 8px;
+  	padding: 50px 25px 10px;
+  	max-width: 350px;
+  	width: 80%;
 }
 }
 
