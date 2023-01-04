@@ -107,8 +107,24 @@ nav {
 	font-family: 'DM Sans', sans-serif;
 	
 }
-
-@media(max-width: 700px) {
+@media(min-width: 1121px) {
+	 nav {
+	width: 80%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	}
+	.nav-links ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 20px;
+	position: relative;
+	font-family: 'DM Sans', sans-serif;
+	}
+}
+@media(max-width: 1120px) {
 	.logo {
 		position: relative;
 		right: 30px;
