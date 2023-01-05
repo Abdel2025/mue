@@ -136,7 +136,7 @@ button:hover {
 
 @media(min-width: 1121px) {
 	 nav {
-	width: 100%;
+	width: 80%;
 	margin: auto;
 	padding: 35px 0;
 	display: flex;
