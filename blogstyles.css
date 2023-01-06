@@ -168,7 +168,7 @@ nav {
 	.blog-top-content {
 		width: 80%;
 		position: relative;
-		top: 0px;
+		top: 30px;
 		text-align: center;
 		color: #fff;
 		margin: auto;
@@ -177,7 +177,7 @@ nav {
 	.blog-top-content h1 {
 		font-size: 70px;
 		margin-top: 0px;
-		font-family: 'DM Sans', sans-serif;
+		font-family: 'Noe Display', sans-serif;
 		font-weight: 900;
 }
 	
@@ -258,6 +258,13 @@ nav {
 		margin: auto;
 		text-align: center;
 		padding-top: 60px;
+	}
+	
+	.articles h1 {
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 60px;
+	font-family: 'Noe Display', sans-serif;
 	}
 
 	.row {
@@ -386,9 +393,8 @@ nav {
 	}
 	.follow-us-links {
 		grid-column-gap: 24px;
-		margin-left: 0px;
 		display: flex;
-		margin: 0px;
+		margin: auto;
 	}
 	.fa-facebook-f, .fa-instagram, .fa-youtube {
 		color: #f44336;
