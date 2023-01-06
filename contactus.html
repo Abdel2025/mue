@@ -2,29 +2,39 @@
 <html>
 	<head>
 		<meta name="viewport" content="with=device-width, initial-scale=1.0">
-		<title>Our Services</title>
-		<link rel="stylesheet" href="services.css">
+		<title>MUE Welcome Page</title>
+		<link rel="stylesheet" href="contactusstyles.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
 		<script src="https://kit.fontawesome.com/2f3db88149.js" crossorigin="anonymous"></script>
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script src="index.js"></script>
+		<script type="text/javascript"
+        	src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+		</script>
+		<script type="text/javascript">
+		(function(){
+		emailjs.init("5sjA2wOsVzsG6N99H");
+		})();
+		</script>
 		<style>
 			@import url('https://fonts.cdnfonts.com/css/noe-display');
+		</style>
+		<style> 
+		@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap'); 
 		</style>
 	</head>
 
 	<body>
 	
-	<!------------------------------------------- SERVICES TOP SECTION ----------------------------------------------->
+	<!----------------- CONTACT US TOP SECTION ----------------->
 	
-	<section class="services-top">
-		<nav>
-			<a href="Website.html">
+	<section class="contact-us-top">
+		<nav style="width: 75%; margin: auto; padding: 35px 0; display: flex; align-items: center; justify-content: space-between;">
+			<a href="">
 				<img style="width: 300px;" src="mue-logo5.png" class="logo">
 			</a>
 			<div class="nav-links" id="navLinks">
@@ -42,215 +52,70 @@
 			<div class="bar">
 				<i class="fas fa-bars fa-2x" onclick="showMenu()"></i>
 			</div>
-
+			
 		</nav>
 		
-		<div class="services-top-content">
-			<h1>OUR SERVICES</h1>
-			<p>Morocco USA Education is making it easy for hundereds of students in <br>Morocco to achieve their dream to study in USA in the school of their choice.<br> The programs and services we offer show our ultimate goal to spread the opportunity<br> and chance to explore education in USA in one of the best universities in the world.</p><br>
+		<div class="contact-us-top-content" style="width: 100%; position: relative; top: 0px; text-align: center; color: #fff;">
+			<h1>CONTACT US</h1>
+			<p>Start Your Journey By <br>Booking Your One-To-One Consultation With Us</p>
 			<div>
-			<button type="button" onclick="window.location.href = 'https://mue.youcanbook.me/';">BOOK YOUR CONSULTATION NOW</button>
-			</div>
-		</div>
-	</section>
-	
-	<!------------------------------------------- SERVICES ---------------------------------------->
-	
-	<section class="services">
-		<div class="services-header">
-			<h1>How Can <span style="color: #192F7A; font-family: 'Noe Display', sans-serif;">MUE</span> Help You</h1>
-		</div>
-		
-		<div class="row">
-			<div class="column">
-				<div class="card">
-					<i class="fa-solid fa-magnifying-glass fa-5x"></i>
-					<div class="services-container">
-					<h2>Research Your Options</h2>
-					<p>MUE agents will work closely with you to find the best school that fits your needs.</p>
-					<button type="button" onclick="window.location.href = 'research-options.html';">Learn more</button>
-					</div>
-				</div>
-			</div>
-			
-			<div class="column">
-				<div class="card">
-					<i class="fa-solid fa-coins fa-5x"></i>
-					<div class="services-container">
-					<h2>Finance Your Studies</h2>
-					<p>MUE agents will help you define your tuition fees and how you can lower them down.</p>
-					<button type="button" onclick="window.location.href = 'finance-your-studies.html';">Learn more</button>
-					</div>
-				</div>
-			</div>
-			
-			<div class="column">
-				<div class="card">
-					<i class="fa-solid fa-paste fa-5x"></i>
-					<div class="services-container">
-					<h2>Complete Your Application</h2>
-					<p>We assist you in preparing and submitting every document needed in the process.</p>
-					<button type="button" onclick="window.location.href = 'complete-your-application.html';">Learn more</button>
-					</div>
-				</div>
-			</div>
-			
-			<div class="column">
-				<div class="card">
-					<i class="fa-solid fa-passport fa-5x"></i>
-					<div class="services-container">
-					<h2>Apply For Your Student Visa</h2>
-					<p>We assist and work with students to prepare them to get their student visas approved.</p>
-					<button type="button" onclick="window.location.href = 'apply-for-your-student-visa.html';">Learn more</button>
-					</div>
-				</div>
-			</div>
-			
-			<div class="column">
-				<div class="card">
-					<i class="fa-solid fa-plane fa-5x"></i>
-					<div class="services-container">
-					<h2>Prepare For Your Departure</h2>
-					<p>MUE is always going to be there to help even after getting your student visa.</p>
-					<button type="button" onclick="window.location.href = 'prepare-for-your-deparature.html';">Learn more</button>
-					</div>
-				</div>
-			</div>
-			
-	</section>
-	
-		<!------------------------------------------------- STATISTICS SECTION ----------------------------------------->
-		
-		<div class="stats-rect">
-			<div class="row">
-				<div class="icon-card">
-					<h1>+1,000</h1>
-					<div class="icon-text">
-					<p>Consultations</p>
-					</div>
-				</div>
-
-				<div class="icon-card">
-					<h1>+100</h1>
-					<div class="icon-text">
-					<p>Admitted Students</p>
-					</div>
-				</div>
-
-				<div class="icon-card">
-					<h1>+1,500</h1>
-					<div class="icon-text">
-					<p>Scholarships</p>
-					</div>
-				</div>
+			<button style="background: #4F9BE2; width: 300px; padding: 15px 0; text-align: center; margin: 20px 10px; border-radius: 25px; font-weight: bold; border: none; color: #fff; cursor: pointer; font-family: 'DM Sans', sans-serif; font-size: 14px;" type="button" onclick="window.location.href = 'https://mue.youcanbook.me/';">BOOK YOUR CONSULTATION NOW</button>
 			</div>
 		</div>
 		
-
-	<!--------------------------------------------------- STUDY IN USA -------------------------------------------->
-	
-	<section class="study-in-america">
-		
-		
-			<div class="row">
-				<div class="study-container-text">
-				<h2>Why Study in The United States of America ?</h2>
-				<p>Quality education, unique curriculum, multicultural environment, and abundant opportunities are just some of the reasons why many International students want to study in the US.</p>
-				<button type="button" onclick="window.location.href = 'https://www.idp.com/middleeast/study-in-usa/why-the-usa/?lang=en#:~:text=The%20US%20boasts%20of%20some,excellent%20education%20to%20its%20students.';">Learn more</button>
-				</div>
-
-				<div class="study-container">
-				<img src="MillValley.jpeg" alt="MillValley">
-				</div>
-
-				
-			</div>
-
-			
-			
-		
 	</section>
 	
-		<!--------------------------------------- TESTIMONIALS -------------------------------------------->
-		
-	<section class="testimonials">
-		<h1>What Our Students Say</h1>
-		<p style="margin-bottom: 30px;">look at what students we worked with have said about us.</p>
-
-		<div class="row">
-			<div class="testimonials-col">
-				<img src="testimonial.jpg" alt="">
-				<div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					<h3>Mohammed Fadil</h3>
-					<div class="stars">
-					<i class="fa-solid fa-star"></i>
-					<i class="fa-solid fa-star"></i>
-					<i class="fa-solid fa-star"></i>
-					<i class="fa-solid fa-star"></i>
-					<i class="fa-regular fa-star"></i>
-					</div>
-				</div>
-			</div>
-
-			<div class="testimonials-col">
-				<img src="testimonial.jpg" alt="">
-				<div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					<h3>Zakaria Rizki</h3>
-					<div class="stars">
-					<i class="fa-solid fa-star"></i>
-					<i class="fa-solid fa-star"></i>
-					<i class="fa-solid fa-star"></i>
-					<i class="fa-solid fa-star"></i>
-					<i class="fa-sharp fa-solid fa-star-half-stroke"></i>
-					</div>
-				</div>
-			</div>
-
-			<div class="testimonials-col">
-				<img src="testimonial.jpg" alt="">
-				<div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					<h3>Zakaria Rizki</h3>
-					<div class="stars">
-					<i class="fa-solid fa-star"></i>
-					<i class="fa-solid fa-star"></i>
-					<i class="fa-solid fa-star"></i>
-					<i class="fa-solid fa-star"></i>
-					<i class="fa-sharp fa-solid fa-star-half-stroke"></i>
-					</div>
-				</div>
-			</div>
-		</div>	
-
-
-	</section>
-
-	<!------------------------------------------- CALL TO CONSULTATION -------------------------------------------->
-
-	<section class="consultation">
-			<img src="othman.jpg" alt="Othman">
-		<div class="consultation-card">
-			<h1>Othman Boutayeb</h1>
-			<h3 style="color: gray;">CEO & CONSULTANT</h3>
+	<!--------------------------------- CONTACT US ------------------------------------->
+	
+	<section class="contact-us">
+		<div class="contact-us-header">
+			<h1>Contact us so we can help you make <br>your dream come true!</h1>
 		</div>
-		<div class="consultation-card">
-			<p>Book your consultation today so we can start your application tomorrow!</p>
+		<h1 style="font-size: 36px; font-weight: 500; font-family: 'Noe Display', sans-serif;">Let Us Help You in Your Journey!</h1>
+	<div class="row">
+	
+		<div class="form-side">
+			<div class="form-text">
+			<p>“The team at MUE Consulting are great. They assisted me to join the university of my choice, and they also helped me get a very good scholarship”</p>
+			<h4>Mehdi Adam</h4>
+			<h5>Full-Bright Scholarship Student, Harvard University</h5>
+			</div>
 		</div>
 		
-			<button type="button" onclick="window.location.href = 'https://mue.youcanbook.me/';">Book Your Consultation</button>
-		
+		<div class="form">
+
+      		<div class="row">
+        			<div class="form-header">
+          			
+        			</div>
+        		<div class="form-inputs">
+          			<div class="form-group">
+            			<input type="text" class="form-control" id="name" placeholder="Enter name"/>
+          			</div>
+          			<div class="form-group">
+            			<input type="email" class="form-control" id="email" placeholder="Enter email"/>
+          			</div>
+          			<div class="form-group">
+            			<textarea class="form-control" id="message" rows="3" placeholder="Enter message"></textarea>
+          			</div>
+          		<button class="btn btn-primary" onclick="sendMail()">Submit</button>
+        		</div>
+      		</div>
+    	</div>
+
+	</div>
+	
 	</section>
 	
-		<!----------------------------------------------- FOOTER ---------------------------------------------------->
+	
+		<!------------------- Footer -------------->
 		<section class="footer">
 			<ul>
-				<li><a href="Website.html">Home</a></li>
-				<li><a href="aboutus.html">About</a></li>
-				<li><a href="services.html">Services</a></li>
-				<li><a href="contactus.html">Contact Us</a></li>
-				<li><a href="blog.html">Blog</a></li>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Contact Us</a></li>
+				<li><a href="#">Blog</a></li>
 			</ul>
 			<div class="icons">
 				<a href="https://www.facebook.com/MoroccoUSAEdu" title="Facebook Link"><i class="fa-brands fa-facebook-f"></i></a>
@@ -265,7 +130,7 @@
 		</section>
 		
 		
-		<!---------------------------------------------- JavaScript for Toggle Menu --------------------------------------->
+		<!-- JavaScript for Toggle Menu -->
 		<script>
 			var navLinks = document.getElementById("navLinks");
 			function showMenu(){
