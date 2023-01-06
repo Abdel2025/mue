@@ -8,7 +8,7 @@
 
 .services-top {
 	width: 100%;
-	height:90vh;
+	height:100vh;
 	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(office.jpg);
 	background-size: cover;
 	background-position: center;
@@ -72,13 +72,13 @@ nav {
 .services-top-content {
 	width: 100%;
 	position: relative;
-	top: 0px;
+	top: 60px;
 	text-align: center;
 	color: #fff;
 	}
 
 .services-top-content h1 {
-	font-size: 60px;
+	font-size: 70px;
 	font-family: 'Noe Display', sans-serif;
 	font-weight: 700;
 	text-align: center;
@@ -135,12 +135,12 @@ nav {
 @media(max-width: 1120px) {
 	.services-top {
 	width: 100%;
-	height:100vh;
+	height:110vh;
 	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(office.jpg);
 	background-size: cover;
 	background-position: center;
 	
-}
+	}
 	.logo {
 		position: relative;
 		right: 30px;
@@ -186,11 +186,12 @@ nav {
 	text-align: center;
 	color: #fff;
 	padding: 20px 20px 0px 40px;
+	top: 0px;
 	}
 
 .services-top-content h1 {
 	font-size: 40px;
-	font-family: 'DM Sans', sans-serif;
+	font-family: 'Noe Display', sans-serif;
 	font-weight: 700;
 	text-align: center;
 	margin-top: 0px;
@@ -313,15 +314,16 @@ nav {
 .column {
 	flex-basis: 300px;
 	margin-bottom: 16px;
-  	padding: 0 8px 10px;
+  	padding: 0;
+	margin: auto;
+	width: 100%;
 }
 
 .card {
   	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   	margin: 8px;
   	padding: 50px 25px 10px;
-  	max-width: 350px;
-  	width: 80%;
+ 
 }
 }
 
@@ -371,7 +373,7 @@ nav {
 	margin: auto;
 	height: 650px;
 	width: 100%;
-}
+	}
 }
 
 
@@ -566,7 +568,7 @@ nav {
 	display: flex;
 	width: 100%;
 	box-sizing: border-box;
-	margin-left: 0px;
+	margin-left: 0;
 	}
 }
 
@@ -631,25 +633,26 @@ nav {
 @media(max-width: 700px) {
 	.consultation {
 	display: block;
-	height: 500px;
+	height: 460px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	padding: 50px 30px;
 	border-radius: 10px;
 
-}
+	}
 
-.consultation img {
+	.consultation img {
 	width: 100px;
 	border-radius: 75%;
 	height: 100px;
-	margin-left: 90px;
-	
-}
+	padding: 0 90px;
+	margin: auto;
+	}
+
 	.consultation-card:first-of-type {
 	margin: auto;
 	padding: 20px 0px;
 	min-width: 300px;
-}
+	}
 
 	.consultation-card {
 	text-align: center;
@@ -660,18 +663,21 @@ nav {
 	display: block;
 	margin-top: 20px;
 	margin: auto;
+	}
+
+	.consultation-card p {
+	margin: auto;
+	}
+
+	.consultation-card h1 {
+	margin: auto;
+	}
+
+	.consultation-card h3 {
+	margin: auto;
+	}
 	
-}
-
-.consultation-card h1 {
-	margin-right: 30px;
-}
-
-.consultation-card h3 {
-	margin-right: 30px;
-}
-
-.consultation button {
+	.consultation button {
 	display: block;
 	text-decoration: none;
 	color: #fff;
@@ -688,7 +694,7 @@ nav {
 	margin: auto;
 	margin-top: 30px;
 	margin-bottom: 20px;
-}
+	}
 
 	
 
@@ -701,7 +707,7 @@ nav {
 	text-align: center;
 	padding: 25px 0;
 	background: #D5F3FE;
-	margin-top: 100px;
+	margin-top: 80px;
 }
 
 .footer ul li {
