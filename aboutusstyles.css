@@ -8,7 +8,7 @@
 
 .about-section {
 	width: 100%;
-	height: 120vh;
+	height: 100vh;
 	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(office.jpg);
 	background-size: cover;
 	background-position: center;
@@ -73,13 +73,13 @@ nav {
 .about-section-content {
 	width: 100%;
 	position: relative;
-	top: 0px;
+	top: 50px;
 	text-align: center;
 	color: #fff;
 	}
 
 .about-section-content h1 {
-	font-size: 60px;
+	font-size: 70px;
 	font-family: 'Noe Display', sans-serif;
 	font-weight: 700;
 	text-align: center;
@@ -201,7 +201,7 @@ nav {
 
 	.about-section-content h1 {
 		font-size: 40px;
-		font-family: 'DM Sans', sans-serif;
+		font-family: 'Noe Display', sans-serif;
 		font-weight: 700;
 		text-align: center;
 		margin-top: 0px;
@@ -399,7 +399,7 @@ nav {
 	margin: auto;
 	font-size: 40px;
 	margin-top: 100px;
-	font-family: 'DM Sans', sans-serif;
+	font-family: 'Noe Display', sans-serif;
 	color: #192F7A;
 	text-shadow: 1px 1px #80869A;
 }
@@ -478,7 +478,7 @@ nav {
 	.special-mue {
 		text-align: center;
 		margin: auto;
-		width: 80%;
+		width: 90%;
 		margin-bottom: 6px;
 		margin-top: 80px;
 	}
@@ -494,9 +494,10 @@ nav {
 	}
 	.special-mue-card {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	margin: 16px;
+	margin: auto;
 	height: 550px;
 	display: block;
+	margin-bottom: 20px;
 }
 
 }
@@ -595,45 +596,59 @@ nav {
 
 /* ------------------------- CONTACT US ------------------------------- */
 
-.contact-us {
-	width: 100%;
-	padding: 30px 0px 0px;
-}
 
 
-
-.contact-us p {
-	text-align: center;
-	margin-top: 0px;
-	margin-bottom: 50px;
-	font-family: 'DM Sans', sans-serif;
-	font-size: 36px;
-}
-
-
-form {
+.form {
 	display: flex;
-	flex-direction: column;
-	padding: 2vw 4vw;
-	width: 90%;
+	padding: 2vw 35vw;
+	width: 100%;
 	border-radius: 10px;
-	margin-bottom: 55px;
-	margin-top: 80px; 
-	margin-left: 550px;
 }
 
-.form-inputs {
-	margin-top: 0px; 
-	margin-left: 700px;
+
+.form-input p {
+	line-height: 50px;
+	margin: auto;
+	width: 100%;
+	}
+
+.form-input input {
+	border: 0;
+	margin: auto;
+	padding: 10px;
+	outline: none;	
+	font-size: 16px;
+	width: 100%;	
 }
 
-.form-inputs p {
-	font-size: 42px; 
-	margin-bottom: 60px; 
-	text-align: center; 
-	color: black;
-	margin-top: 50px;
+.form-group textarea {
+	border: 0;
+	margin: auto;
+	padding: 20px;
+	outline: none;
+	background: #f5f5f5;	
+	font-size: 16px;
+	width: 100%;
+	}
+
+
+
+form h3 {
+	color: #555;
+	font-weight: 800;
+	margin-bottom: 20px;
+	font-family: 'DM Sans', sans-serif;
 }
+
+.form-input input {
+	border: 0;
+	margin: auto;
+	padding: 10px;
+	outline: none;	
+	font-size: 16px;
+	width: 100%;	
+}
+
 
 .form-group input {
 	border: 0; 
@@ -645,80 +660,19 @@ form {
 	width: 560px;
 }
 
-.form-group textarea {
-	border: 0; 
-	margin: 10px 0; 
-	padding: 20px; 
-	outline: none; 
-	background: #f5f5f5; 
-	font-size: 16px; 
-	min-height: 8em; 
-	max-height: 8em; 
-	min-width: 560px; 
-	max-width: 560px;
-}
-
 .form-inputs button {
-	padding: 15px; 
-	background: #192F7A; 
-	color: #fff; 
-	font-size: 18px; 
-	border-radius: 0; 
-	border: none; 
-	outline: none; 
-	cursor: pointer; 
-	margin-left: 140px; 
-	margin-top: 20px; 
-	font-family: 'DM Sans', sans-serif; 
-	width: 300px; 
-	margin-bottom: 60px;
-}
-
-form h3 {
-	color: #555;
-	font-weight: 800;
-	margin-bottom: 20px;
-	font-family: 'DM Sans', sans-serif;
-}
-
-form input {
-	border: 0px;
-	margin: 10px 0;
-	padding: 20px;
-	outline: none;
-	background: #f5f5f5;	
-	font-size: 16px;
-	font-family: 'DM Sans', sans-serif;	
-}
-
-form textarea {
-	border: 0;
-	margin: 10px 0;
-	padding: 20px;
-	outline: none;
-	background: #f5f5f5;	
-	font-size: 16px;
-	min-height: 8em;
-	max-height: 8em;
-	min-width: 560px;
-	max-width: 560px;
-	}
-
-
-
-
-form button {
 	padding: 15px;
-	background: #192F7A;
+	background: #ff5361;
 	color: #fff;
 	font-size: 18px;
-	border: 0;
+	border-radius: 0;
+	border: none;
 	outline: none;
 	cursor: pointer;
-	margin: auto;
+	margin-left: 120px;
 	margin-top: 40px;
-	width: 60%;
 	font-family: 'DM Sans', sans-serif;
+	width: 300px;
 }
 
 form button:hover {
@@ -726,85 +680,50 @@ form button:hover {
 }
 
 @media(max-width: 700px) {
-	form textarea {
+
+	.form {
+	display: flex;
+	padding: 40px 10vw;
+	width: 100%;
+	border-radius: 10px;
+	}
+
+
+	.form-group input {
+	width: 100%;
+	}
+
+	.form-group textarea {
 	border: 0;
-	margin: 10px 0;
+	margin: auto;
 	padding: 20px;
 	outline: none;
 	background: #f5f5f5;	
 	font-size: 16px;
-	min-height: 8em;
-	max-height: 8em;
-	min-width: 350px;
-	max-width: 350px;
+	width: 100%;
 	}
-	form {
-	display: flex;
-	flex-direction: column;
-	padding: 0;
-	width: 90%;
-	max-width: 600px;
-	border-radius: 10px;
-	margin-bottom: 55px;
-	margin-top: 60px; 
-	margin-left: 500px;
-}
-	.form-inputs {
-	margin-top: 0px; 
-	margin-left: 60px;
-}
 
-.form-inputs p {
+	.form-inputs p {
 	font-size: 30px; 
 	margin-bottom: 60px; 
 	text-align: center; 
 	color: black;
-	margin-top: 40px;
-	margin-right: 60px;
-}
-
-.form-group input {
-	border: 0; 
-	margin: 10px 0; 
-	padding: 20px; 
-	outline: none; 
-	background: #f5f5f5;
-	font-size: 16px;
-	width: 380px;
-}
-
-.form-group textarea {
-	border: 0; 
-	margin: 10px 0; 
-	padding: 20px; 
-	outline: none; 
-	background: #f5f5f5; 
-	font-size: 16px; 
-	min-height: 8em; 
-	max-height: 8em; 
-	min-width: 380px;
-	max-width: 380px;
-}
-
-.form-input p {
-		line-height: 50px;
-		margin-right: 50px;
+	margin: auto;
+	margin-bottom: 40px;
 	}
-
-.form-inputs button {
-	padding: 15px; 
-	background: #192F7A; 
-	color: #fff; 
-	font-size: 18px; 
-	border-radius: 0; 
-	border: none; 
-	outline: none; 
-	cursor: pointer; 
-	margin-left: 40px; 
-	margin-top: 20px; 
-	font-family: 'DM Sans', sans-serif; 
-	width: 300px; 
-	margin-bottom: 60px;
+	.form-inputs button {
+	padding: 15px;
+	background: #ff5361;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 0;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	margin-left: 30px;
+	margin-top: 40px;
+	font-family: 'DM Sans', sans-serif;
+	width: 300px;
 }
 
 }
