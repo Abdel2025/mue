@@ -634,11 +634,11 @@ nav {
 @media(max-width: 700px) {
 	.consultation {
 	display: block;
-	height: 440px;
+	max-height: 1600px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	padding: 50px 30px;
 	border-radius: 10px;
-
+	position: relative;
 	}
 
 	.consultation img {
@@ -648,9 +648,11 @@ nav {
 	float: none;
 	margin: auto;
 	display: block;
+	position: relative;
 	}
 
 	.consultation-card:first-of-type {
+	position: relative;
 	margin: auto;
 	padding: 20px 0px;
 	min-width: 300px;
@@ -666,18 +668,22 @@ nav {
 	display: block;
 	margin-top: 20px;
 	margin: auto;
+	position: relative;
 	}
 	
 	.consultation-card p {
 	margin: auto;
+	position: relative;
 	}
 
 	.consultation-card h1 {
 	margin: auto;
+	position: relative;
 	}
 
 	.consultation-card h3 {
 	margin: auto;
+	position: relative;
 	}
 	
 	.consultation button {
@@ -697,6 +703,7 @@ nav {
 	margin: auto;
 	margin-top: 30px;
 	margin-bottom: 20px;
+	position: relative;
 	}
 
 	
