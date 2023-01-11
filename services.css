@@ -72,7 +72,7 @@ nav {
 .services-top-content {
 	width: 100%;
 	position: relative;
-	top: 60px;
+	top: 100px;
 	text-align: center;
 	color: #fff;
 	}
@@ -86,13 +86,15 @@ nav {
 }
 
 .services-top-content p {
-	margin: 30px auto;
+	margin: auto;
 	font-weight: 100;
 	line-height: 25px;
 	font-size: 28px;
 	line-height: 50px;
 	color: #fff;
 	font-family: 'DM Sans', sans-serif;
+	margin-top: 40px;
+	margin-bottom: 30px;
 }
 
 .services-top-content button {
@@ -135,7 +137,7 @@ nav {
 @media(max-width: 1120px) {
 	.services-top {
 	width: 100%;
-	height:110vh;
+	height: 90vh;
 	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(office.jpg);
 	background-size: cover;
 	background-position: center;
@@ -180,7 +182,7 @@ nav {
 		padding: 20px;
 		margin-top: 4em;
 	}
-.services-top-content {
+	.services-top-content {
 	width: 80%;
 	position: relative;
 	text-align: center;
@@ -189,25 +191,26 @@ nav {
 	top: 0px;
 	}
 
-.services-top-content h1 {
+	.services-top-content h1 {
 	font-size: 40px;
 	font-family: 'Noe Display', sans-serif;
 	font-weight: 700;
 	text-align: center;
 	margin-top: 0px;
 	margin-bottom: 30px;
-}
+	}
 
-.services-top-content p {
+	.services-top-content p {
 	margin: auto;
 	font-weight: 500;
 	line-height: 35px;
 	font-size: 16px;
 	color: #fff;
 	font-family: 'DM Sans', sans-serif;
-}
+	text-align: center;
+	}
 
-.services-top-content button {
+	.services-top-content button {
 	background: #4F9BE2;
 	width: 300px;
 	text-align: center;
@@ -219,11 +222,11 @@ nav {
 	margin: 20px 0px;
 	padding: 15px 20px;
 	font-family: 'DM Sans', sans-serif;
-}
+	}
 
-.services-top-content button:hover {
+	.services-top-content button:hover {
 	box-shadow: 0 0 20px 0px rgb(0, 0, 0, 0.5);
-}
+	}
 	
 }
 
@@ -366,7 +369,7 @@ nav {
 
 @media(max-width: 700px) {
 	.stats-rect {
-	padding: 20px;
+	padding: 10px 0 80px;
 	text-align: center;
 	background-color: #D5F3FE;
 	color: white;
@@ -374,6 +377,9 @@ nav {
 	height: 650px;
 	width: 100%;
 	}
+	.stats-rect h1 {
+	font-size: 70px;
+	margin: 20px;
 }
 
 
@@ -438,7 +444,7 @@ nav {
 
 @media(max-width: 700px) {
 	.study-in-america {
-	width:100%;
+	width:80%;
 	height: 100%;
 	margin: auto;
 	text-align: center;
@@ -448,19 +454,18 @@ nav {
 }
 .study-container-text {
 	width: 320px;
-	padding: 0 40px;
+	padding: 0px 40px 20px 0px;
 	font-size: 24px;
 	margin: auto;
 	margin-bottom: 30px;
 }
 
 .study-container img {
-	width: 80%;
+	width: 100%;
 	display: block;
 	box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.4);
 	float: none;
 	margin: auto;
-	margin-top: 40px;
 }
 
 }
@@ -606,8 +611,8 @@ nav {
 	width: 80px;
 	border-radius: 75%;
 	height: 80px;
-	float: left;
-	padding: 0 20px;
+	margin: auto;
+	margin-left: 30px;
 }
 
 .consultation button {
@@ -634,29 +639,25 @@ nav {
 @media(max-width: 700px) {
 	.consultation {
 	display: block;
-	max-height: 1600px;
+	height: 460px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	padding: 50px 30px;
 	border-radius: 10px;
-	position: relative;
+
 	}
 
 	.consultation img {
 	width: 100px;
 	border-radius: 75%;
 	height: 100px;
-	float: none;
+	padding: 0 90px;
 	margin: auto;
-	display: block;
-	position: relative;
 	}
 
 	.consultation-card:first-of-type {
-	position: relative;
 	margin: auto;
 	padding: 20px 0px;
 	min-width: 300px;
-	margin-bottom: 30px;
 	}
 
 	.consultation-card {
@@ -668,22 +669,18 @@ nav {
 	display: block;
 	margin-top: 20px;
 	margin: auto;
-	position: relative;
 	}
-	
+
 	.consultation-card p {
 	margin: auto;
-	position: relative;
 	}
 
 	.consultation-card h1 {
 	margin: auto;
-	position: relative;
 	}
 
 	.consultation-card h3 {
 	margin: auto;
-	position: relative;
 	}
 	
 	.consultation button {
@@ -703,7 +700,6 @@ nav {
 	margin: auto;
 	margin-top: 30px;
 	margin-bottom: 20px;
-	position: relative;
 	}
 
 	
