@@ -157,6 +157,14 @@ button:hover {
 		position: relative;
 		right: 30px;
 	}
+	.content {
+	width: 100%;
+	position: relative;
+	top: 120px;
+	transform: translateY(-50%);
+	text-align: center;
+	color: #fff;
+	}
 	.content h1 {
 		font-size: 36px;
 		font-weight: 700;
