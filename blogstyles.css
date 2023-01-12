@@ -125,6 +125,9 @@ nav {
 	}
 }
 @media(max-width: 1120px) {
+	.blog-top {
+	height: 90vh;
+	}
 	.logo {
 		position: relative;
 		right: 30px;
@@ -168,14 +171,14 @@ nav {
 	.blog-top-content {
 		width: 80%;
 		position: relative;
-		top: 30px;
+		top: 0px;
 		text-align: center;
 		color: #fff;
 		margin: auto;
 	}
 
 	.blog-top-content h1 {
-		font-size: 70px;
+		font-size: 50px;
 		margin-top: 0px;
 		font-family: 'Noe Display', sans-serif;
 		font-weight: 900;
@@ -261,7 +264,7 @@ nav {
 	}
 	
 	.articles h1 {
-	font-size: 40px;
+	font-size: 32px;
 	font-weight: 700;
 	margin-bottom: 60px;
 	font-family: 'Noe Display', sans-serif;
@@ -330,11 +333,11 @@ nav {
 		font-family: 'DM Sans', sans-serif;
 		color: #192F7A;
 		text-shadow: 1px 1px #80869A;
-		padding: 25px 60px 0 10px;
+		padding: 0px 60px 0 10px;
 	}
 	.contact-us button {
 		background: #4F9BE2;
-		width: 400px;
+		width: 80%;
 		height: 60px;
 		padding: 15px 0;
 		text-align: center;
@@ -386,8 +389,8 @@ nav {
 
 @media(max-width: 700px) {
 	.follow-us {
-		margin-left: 80px;
-		width: 65%;
+		margin: auto;
+		width: 80%;
 		margin-top: 80px;
 		margin-bottom: 80px;
 	}
@@ -398,9 +401,9 @@ nav {
 	}
 	.fa-facebook-f, .fa-instagram, .fa-youtube {
 		color: #f44336;
-		margin: 30px 20px 0 20px;
+		margin: auto;
 		cursor: pointer;
-		padding: 18px 0;
+		padding: 50px 20px 0;
 	}
 }
 
@@ -460,7 +463,7 @@ nav {
 	.footer ul li {
 	list-style: none;
 	display: inline-block;
-	margin: 0 10px;
+	margin: 0 5px;
 	position: relative;
 	font-family: 'Roboto', sans-serif;
 	font-family: 'Rubik', sans-serif;
