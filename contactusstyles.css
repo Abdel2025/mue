@@ -485,7 +485,7 @@ form button:hover {
 
 .form {
 	display: flex;
-	padding: 10vw 10vw;
+	padding: 10vw 5vw;
 	width: 100%;
 	border-radius: 10px;
 	margin: auto;
