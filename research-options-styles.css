@@ -108,25 +108,7 @@ nav {
 	
 }
 
-@media(min-width: 1121px) {
-	 nav {
-	width: 80%;
-	margin: auto;
-	padding: 35px 0;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	}
-	.nav-links ul li {
-	list-style: none;
-	display: inline-block;
-	margin: 20px;
-	position: relative;
-	font-family: 'DM Sans', sans-serif;
-	}
-}
-
-@media(max-width: 1120px) {
+@media(max-width: 700px) {
 	.logo {
 		position: relative;
 		right: 30px;
@@ -240,6 +222,14 @@ nav {
 }
 
 @media(max-width: 700px) {
+	.article {
+	margin-top: 60px;
+	width: 95%;
+	text-align: center;
+	margin: auto;
+	padding: 30px 0;
+	}
+
 	.article h1 {
 	margin-bottom: 40px;
 	font-size: 30px;
@@ -319,25 +309,26 @@ nav {
 @media(max-width: 700px) {
 	.consultation {
 	display: block;
-	height: 500px;
+	height: 460px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	padding: 50px 30px;
 	border-radius: 10px;
+	margin-top: 40px;
+	}
 
-}
-
-.consultation img {
+	.consultation img {
 	width: 100px;
 	border-radius: 75%;
 	height: 100px;
-	margin-left: 90px;
-	
-}
+	padding: 0 90px;
+	margin: auto;
+	}
+
 	.consultation-card:first-of-type {
 	margin: auto;
 	padding: 20px 0px;
 	min-width: 300px;
-}
+	}
 
 	.consultation-card {
 	text-align: center;
@@ -348,18 +339,21 @@ nav {
 	display: block;
 	margin-top: 20px;
 	margin: auto;
+	}
+
+	.consultation-card p {
+	margin: auto;
+	}
+
+	.consultation-card h1 {
+	margin: auto;
+	}
+
+	.consultation-card h3 {
+	margin: auto;
+	}
 	
-}
-
-.consultation-card h1 {
-	margin-right: 30px;
-}
-
-.consultation-card h3 {
-	margin-right: 30px;
-}
-
-.consultation button {
+	.consultation button {
 	display: block;
 	text-decoration: none;
 	color: #fff;
@@ -376,7 +370,7 @@ nav {
 	margin: auto;
 	margin-top: 30px;
 	margin-bottom: 20px;
-}
+	}
 
 	
 
