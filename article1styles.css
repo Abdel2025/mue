@@ -236,7 +236,6 @@ nav {
 	
 	.article img {
 		width: 95%;
-		margin: auto;
 	}
 	
 	.article p {
@@ -252,6 +251,7 @@ nav {
 	
 	.article p:nth-of-type(4) {
 		margin-bottom: 40px;
+		width: 100%;
 	}
 	
 	.article p:nth-of-type(5) {
@@ -448,8 +448,7 @@ nav {
 	display: inline-block;
 	margin: 0 5px;
 	position: relative;
-	font-family: 'Roboto', sans-serif;
-	font-family: 'Rubik', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 	margin-bottom: 30px;
 }
 }
