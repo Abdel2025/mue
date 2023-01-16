@@ -160,6 +160,7 @@ button:hover {
 	.logo {
 		position: relative;
 		right: 30px;
+		width: 80%;
 	}
 	.content {
 	width: 100%;
