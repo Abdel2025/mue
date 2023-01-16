@@ -29,6 +29,7 @@ nav {
 
 .logo {
 	cursor: pointer;
+	width: 300px;
 }
 
 .nav-links ul li {
