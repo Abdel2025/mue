@@ -138,10 +138,11 @@ nav {
 	background-size: cover;
 	background-position: center;
 	
-}
+	}
 	.logo {
 		position: relative;
 		right: 30px;
+		width: 80%;
 	}
 	.contact-us-top-content h1 {
 		font-size: 20px;
