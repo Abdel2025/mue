@@ -4,6 +4,10 @@
 	font-family: 'DM Sans', sans-serif;
 }
 
+html {
+	overflow-x: hidden;
+}
+
 /*----------------- SERVICES TOP SECTION -----------------*/
 
 .services-top {
