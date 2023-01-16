@@ -12,7 +12,7 @@ html {
 
 .about-section {
 	width: 100%;
-	height: 100vh;
+	padding: 40px 0 280px 0;
 	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(office.jpg);
 	background-size: cover;
 	background-position: center;
@@ -146,7 +146,7 @@ nav {
 @media(max-width: 1120px) {
 	.about-section {
 		width: 100%;
-		height:120vh;
+		padding: 40px 0 60px 0;
 		background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(office.jpg);
 		background-size: cover;
 		background-position: center;
@@ -517,7 +517,7 @@ nav {
 .ceo-bio {
 	margin-top: 100px;
 	background: #D5F3FE;
-	height: 300px;
+	padding: 60px 0;
 }
 
 .ceo-bio-othman img {
@@ -560,8 +560,7 @@ nav {
 .ceo-bio {
 	margin-top: 80px;
 	background: #D5F3FE;
-	height: 650px;
-	padding: 50px 0px;
+	padding: 70px 0px 0px 0;
 }
 .ceo-bio-othman img {
 	height: 200px;
@@ -727,10 +726,9 @@ form button:hover {
 	border: none;
 	outline: none;
 	cursor: pointer;
-	margin-left: 30px;
 	margin-top: 40px;
 	font-family: 'DM Sans', sans-serif;
-	width: 300px;
+	width: 80%;
 }
 
 }
