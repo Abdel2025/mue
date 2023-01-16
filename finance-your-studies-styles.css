@@ -25,6 +25,7 @@ nav {
 
 .logo {
 	cursor: pointer;
+	width: 300px;
 }
 
 .nav-links ul li {
@@ -112,6 +113,7 @@ nav {
 	.logo {
 		position: relative;
 		right: 30px;
+		width: 80%;
 	}
 	.content h1 {
 		font-size: 20px;
