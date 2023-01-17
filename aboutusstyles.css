@@ -216,7 +216,7 @@ nav {
 
 	.about-section-content h1 {
 		font-size: 40px;
-		font-family: 'Noe Display', sans-serif;
+		font-family: 'DM Sans', sans-serif;
 		font-weight: 700;
 		text-align: center;
 		margin-top: 0px;
@@ -264,7 +264,6 @@ nav {
 	width: 78%;
 	margin-bottom: 70px;
 	font-family: 'DM Sans', sans-serif;
-	
 }
 
 .team-members-header {
@@ -393,7 +392,7 @@ nav {
 	margin: 180px;
 	font-size: 46px;
 	margin-top: 60px;
-	font-family: 'Noe Display', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 	color: #192F7A;
 	text-shadow: 1px 1px #80869A;
 	font-weight: 700;
@@ -416,7 +415,7 @@ nav {
 	margin: auto;
 	font-size: 40px;
 	margin-top: 100px;
-	font-family: 'Noe Display', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 	color: #192F7A;
 	text-shadow: 1px 1px #80869A;
 }
