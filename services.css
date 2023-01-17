@@ -93,7 +93,7 @@ nav {
 
 .services-top-content h1 {
 	font-size: 70px;
-	font-family: 'Noe Display', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 	font-weight: 700;
 	text-align: center;
 	margin-top: 40px;
@@ -208,7 +208,7 @@ nav {
 
 	.services-top-content h1 {
 	font-size: 40px;
-	font-family: 'Noe Display', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 	font-weight: 700;
 	text-align: center;
 	margin-top: 0px;
@@ -264,7 +264,7 @@ nav {
 	text-align: center;
 	margin-top: 40px;
 	margin-bottom: 50px;
-	font-family: 'Noe Display', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 	font-size: 50px;
 	font-weight: 600;
 }
@@ -293,7 +293,7 @@ nav {
 .services-container h2 {
 	margin-top: 20px;
 	margin-bottom: 10px;
-	font-family: 'Noe Display', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 	font-size: 26px;
 }
 
@@ -367,11 +367,11 @@ nav {
 .icon-card h1 {
 	font-size: 90px;
 	color: #192F7A;
-	font-family: 'Noe Display', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 }
 
 .icon-card p{
-	font-family: 'Noe Display', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 	font-size: 32px;
 	font-weight: 600;
 }
@@ -395,6 +395,7 @@ nav {
 	.stats-rect h1 {
 	font-size: 70px;
 	margin: 20px;
+	}
 }
 
 
@@ -423,7 +424,7 @@ nav {
 
 .study-container-text h2 {
 	margin-bottom: 30px;
-	font-family: 'Noe Display', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 }
 
 .study-container img {
@@ -527,7 +528,7 @@ nav {
 .testimonials h1 {
 	font-size: 50px;
 	margin-bottom: 20px;
-	font-family: 'Noe Display', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 }
 
 
@@ -547,8 +548,7 @@ nav {
 	text-align: justify;
 	margin-left: 10px;
 	margin-right: 15px;
-	font-family: 'Roboto', sans-serif;
-	font-family: 'Rubik', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 	
 }
 
@@ -572,7 +572,13 @@ nav {
 	text-align: center;
 	margin-bottom: 40px;
 	
-}
+	}
+	
+	.testimonials h1 {
+	font-size: 30px;
+	margin-bottom: 20px;
+	font-family: 'DM Sans', sans-serif;
+	}
 	
 	.testimonials-col img {
 	margin-left: 0px;
