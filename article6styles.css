@@ -93,7 +93,7 @@ nav {
 .blog-top-content h1 {
 	font-size: 70px;
 	margin-top: 100px;
-	font-family: 'Noe Display', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 	font-weight: 900;
 }
 
@@ -179,7 +179,7 @@ nav {
 	.blog-top-content h1 {
 		font-size: 50px;
 		margin-top: 0px;
-		font-family: 'Noe Display', sans-serif;
+		font-family: 'DM Sans', sans-serif;
 		font-weight: 900;
 }
 	
@@ -200,7 +200,7 @@ nav {
 .article h1 {
 	margin-bottom: 40px;
 	font-size: 60px;
-	font-family: 'Noe Display', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 }
 
 .article img {
@@ -235,7 +235,7 @@ nav {
 	.article h1 {
 	margin-bottom: 40px;
 	font-size: 35px;
-	font-family: 'Noe Display', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 	}
 	
 	.article h2 {
@@ -412,8 +412,7 @@ nav {
 	display: inline-block;
 	margin: 0 20px;
 	position: relative;
-	font-family: 'Roboto', sans-serif;
-	font-family: 'Rubik', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 	margin-bottom: 30px;
 }
 
@@ -422,8 +421,7 @@ nav {
 	color: #444444;
 	text-transform: uppercase;
 	font-weight: 500;
-	font-family: 'Roboto', sans-serif;
-	font-family: 'Rubik', sans-serif;
+	font-family: 'DM Sans', sans-serif;
 }
 
 .footer ul li a::after {
