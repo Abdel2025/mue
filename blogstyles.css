@@ -203,6 +203,13 @@ nav {
 	.blog-top-content p {
 		font-size: 18px;
 	}
+
+	.blog-top-content button {
+	margin: auto;
+	width: 90%;
+	padding: 15px 0;
+	font-size: 12px;
+	}
 	
 }
 /* ------------------------------------------------- ARTICLES --------------------------------------------- */
@@ -358,7 +365,7 @@ nav {
 	.contact-us button {
 		background: #4F9BE2;
 		width: 80%;
-		height: 60px;
+		height: 50px;
 		padding: 15px 0;
 		text-align: center;
 		margin: 50px 40px 0 0;
@@ -368,7 +375,7 @@ nav {
 		color: #fff;
 		cursor: pointer;
 		font-family: 'DM Sans', sans-serif;
-		font-size: 18px;
+		font-size: 14px;
 	}
 }
 
@@ -401,16 +408,16 @@ nav {
 
 .fa-facebook-f, .fa-instagram, .fa-youtube {
 		color: #f44336;
-		margin: 0px 40px 0 40px;
+		margin: auto;
 		cursor: pointer;
-		padding: 18px 0;
+		padding: 18px 0px;
 	}	
 
 
 @media(max-width: 700px) {
 	.follow-us {
 		margin: auto;
-		width: 80%;
+		width: 90%;
 		margin-top: 80px;
 		margin-bottom: 80px;
 	}
@@ -423,7 +430,7 @@ nav {
 		color: #f44336;
 		margin: auto;
 		cursor: pointer;
-		padding: 50px 20px 0;
+		padding: 50px 10px 0;
 	}
 }
 
@@ -481,7 +488,7 @@ nav {
 	.footer ul li {
 	list-style: none;
 	display: inline-block;
-	margin: 0 5px;
+	margin: 0 2px;
 	position: relative;
 	font-family: 'DM Sans', sans-serif;
 	margin-bottom: 30px;
