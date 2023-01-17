@@ -266,7 +266,10 @@ nav {
 	}
 	
 	.article p:nth-of-type(4) {
-		margin: 40px 50px;
+		margin: auto;
+		width: 100%;
+		text-align: center;
+		padding: 30px 0;
 	}
 	
 }
