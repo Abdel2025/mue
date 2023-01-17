@@ -120,6 +120,7 @@ nav {
 	color: #fff;
 	cursor: pointer;
 	font-family: 'DM Sans', sans-serif;
+	font-size: 14px;
 	
 }
 @media(min-width: 1121px) {
@@ -218,11 +219,12 @@ nav {
 	font-size: 16px;
 	color: #fff;
 	font-family: 'DM Sans', sans-serif;
+	margin-bottom: 20px;
 	}
 
 	.contact-us-top-content button {
 	background: #4F9BE2;
-	width: 300px;
+	width: 90%;
 	text-align: center;
 	border-radius: 25px;
 	font-weight: bold;
@@ -232,6 +234,7 @@ nav {
 	margin: auto;
 	padding: 15px 20px;
 	font-family: 'DM Sans', sans-serif;
+	font-size: 12px;
 	
 	}
 
@@ -472,6 +475,8 @@ form button:hover {
 }
 
 
+
+
 .form-group textarea {
 	border: 0;
 	margin: auto;
@@ -491,10 +496,10 @@ form button:hover {
 	border: none; 
 	outline: none; 
 	cursor: pointer; 
-	margin-left: 10px; 
+	margin: auto; 
 	margin-top: 10px; 
 	font-family: 'DM Sans', sans-serif; 
-	width: 300px; 
+	width: 	280px; 
 	margin-bottom: 60px;
 }
 
@@ -596,7 +601,7 @@ form button {
 	.footer ul li {
 	list-style: none;
 	display: inline-block;
-	margin: 0 5px;
+	margin: 0 3px;
 	position: relative;
 	font-family: 'DM Sans', sans-serif;
 	margin-bottom: 30px;
