@@ -173,14 +173,15 @@ button:hover {
 	.content {
 	width: 100%;
 	position: relative;
-	top: 120px;
+	top: 180px;
 	transform: translateY(-50%);
 	text-align: center;
 	color: #fff;
 	}
 	.content h1 {
-		font-size: 36px;
-		font-weight: 700;
+		font-size: 50px;
+		font-family: 'DM Sans', sans-serif;
+		font-weight: 900;
 	}
 	.nav-links ul li {
 		display: block;
@@ -213,6 +214,9 @@ button:hover {
 	.nav-links ul {
 		padding: 20px;
 		margin-top: 4em;
+	}
+	.content p {
+		font-size: 16px;
 	}
 	
 }
@@ -251,9 +255,9 @@ button:hover {
 
 .services p {
 	font-family: 'DM Sans', sans-serif;
-	font-size: 36px;
+	font-size: 30px;
 	color: #000000;
-	line-height: 64px;
+	line-height: 54px;
 	font-weight: 300;
 	text-align: center;
 	margin-top: 20px;
@@ -349,10 +353,21 @@ p {
 	}
 
 @media(max-width: 700px) {
-.row {
+	
+	.services h1 {
+	font-size: 50px;
+	font-weight: 600;
+	font-family: 'DM Sans', sans-serif;
+	}
+	
+	.services p {
+		margin-bottom: 40px;
+	}
+	
+	.row {
 	flex-direction: column;
 }
-.service-col {
+	.service-col {
 	flex-basis: 600px;
 	background: #fff;
 	border-radius: 10px;
@@ -365,8 +380,8 @@ p {
 	margin: auto;
 	margin-bottom: 20px;
 	height: 600px;
-}
-.service-col p {
+	}
+	.service-col p {
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 22px;
@@ -375,7 +390,7 @@ p {
 	color: #000000;
 	font-family: 'DM Sans', sans-serif;
 	margin-bottom: 80px;
-}
+	}
 
 }
 
@@ -527,6 +542,11 @@ p {
 	margin-bottom: 20px;
 }
 
+.layer h3 {
+	bottom: 49%;
+	opacity: 1;
+}
+
 .layer button {
 	display: none;
 	padding: 12px 40px;
@@ -536,19 +556,10 @@ p {
 	border: 10px;
 }
 
-.layer:hover button {
-	bottom: 49%;
-	opacity: 1;
-	display: block;
-	margin: 500px 100px;
-	cursor: pointer;
-	font-family: 'DM Sans', sans-serif;
-	border: 2px solid #fff;
-	color: #fff;
-}
 
-.layer:hover {
-	background : rgba(40,67,137,0.7);
+
+.layer {
+	background : rgba(40,67,137,0.3);
 }
 }
 
@@ -759,7 +770,7 @@ p {
 	margin-bottom: 40px;
 	}
 	.testimonials h1 {
-	font-weight: 550;
+	font-weight: 700;
 	font-size: 30px;
 	font-family: 'DM Sans', sans-serif;
 	color: #000000;
@@ -789,10 +800,7 @@ p {
 	margin-bottom: 40px;
 }
 
-.testimonials h1 {
-	font-weight: 600;
-	font-size: 36px;
-}
+
 }
 
 /* ---------------------------------- CALL TO ACTION -------------------------------- */
