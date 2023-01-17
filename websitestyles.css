@@ -165,6 +165,14 @@ button:hover {
 }
 
 @media(max-width: 1120px) {
+	.banner {
+	width: 100%;
+	padding: 0 10px 40px;
+	height: auto;
+	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(backgroundpic.jpg);
+	background-size: cover;
+	background-position: center;
+	}
 	.logo {
 		position: relative;
 		right: 30px;
@@ -173,7 +181,7 @@ button:hover {
 	.content {
 	width: 100%;
 	position: relative;
-	top: 180px;
+	top: 100px;
 	transform: translateY(-50%);
 	text-align: center;
 	color: #fff;
@@ -218,7 +226,11 @@ button:hover {
 	.content p {
 		font-size: 16px;
 	}
-	
+	.banner button {
+	margin: auto;
+	margin-bottom: 10px;
+	width: 90%;
+	}
 }
 
 /* ---------------------------------- SERVICES ----------------------------------------- */
