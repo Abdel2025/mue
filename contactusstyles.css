@@ -4,6 +4,15 @@
 	font-family: 'DM Sans', sans-serif;
 }
 
+body {
+	height: 100%;
+	overflow-x: hidden !important;
+	width: 100%;
+	position: fixed;
+	overflow-y: scroll !important;
+}
+
+
 html {
 	overflow-x: hidden;
 }
