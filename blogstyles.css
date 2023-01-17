@@ -194,11 +194,15 @@ nav {
 	}
 
 	.blog-top-content h1 {
-		font-size: 50px;
+		font-size: 55px;
 		margin-top: 0px;
 		font-family: 'DM Sans', sans-serif;
 		font-weight: 900;
-}
+	}
+	
+	.blog-top-content p {
+		font-size: 18px;
+	}
 	
 }
 /* ------------------------------------------------- ARTICLES --------------------------------------------- */
