@@ -383,7 +383,7 @@ nav {
 
 .follow-us {
 	margin-left: 450px;
-	width: 65%;
+	width: 80%;
 	margin-top: 80px;
 	margin-bottom: 80px;
 
@@ -408,7 +408,7 @@ nav {
 
 .fa-facebook-f, .fa-instagram, .fa-youtube {
 		color: #f44336;
-		margin: auto;
+		margin: 0 40px;
 		cursor: pointer;
 		padding: 18px 0px;
 	}	
