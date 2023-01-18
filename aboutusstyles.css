@@ -261,10 +261,11 @@ nav {
 
 .team-members {
 	text-align: center;
-	margin: 0 240px;
-	width: 78%;
+	margin: auto;
+	width: 100%;
 	margin-bottom: 70px;
 	font-family: 'DM Sans', sans-serif;
+	padding: 0 120px 0;
 }
 
 .team-members-header {
@@ -284,18 +285,21 @@ nav {
 
 .row {
 	display: flex;
+	margin: auto;
 }
 
 .column {
   display: inline-block;
   margin-bottom: 16px;
   padding: 0 8px 10px;
-  
+  width: 33%;
+  min-height: 500px;
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: 8px;
+  margin: auto;
+  
 }
 
 
@@ -326,6 +330,10 @@ nav {
 .team-members-container fa-square-instagram, fa-square-facebook, fa-linkedin {
 	padding: 0 50px;
 	color: #192F7A;
+	width: 200px;
+	padding: 20px 10px;
+	float: left;
+	cursor: pointer;
 }
 
 .team-members-container button {
@@ -346,6 +354,49 @@ nav {
 
 .team-members-container button:hover {
 	box-shadow: 0 0 4px 2px rgb(0, 0, 0, 0.4);
+}
+
+@media only screen and (max-width: 1177px) and (min-width: 701px) {
+	.team-members {
+	text-align: center;
+	margin: auto;
+	width: 100%;
+	margin-bottom: 70px;
+	font-family: 'DM Sans', sans-serif;
+	padding: 0 120px 0;
+	}
+	.team-members-container h2 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: 'DM Sans', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	}
+	.column {
+  	display: inline-block;
+  	margin-bottom: 16px;
+  	padding: 0 8px 10px;
+  	width: 32%;
+  	min-height: 500px;
+	}
+	.team-members-container h4{
+	margin-bottom: 20px;
+	color: #8E8E8E;
+	font-family: 'DM Sans', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	}
+	.team-members-container fa-square-instagram, fa-square-facebook, fa-linkedin {
+	padding: 0 10px;
+	color: #192F7A;
+	width: 200px;
+	}
+	.team-members-container p {
+	margin-bottom: 20px;
+	text-align: left;
+	font-family: 'DM Sans', sans-serif;
+	font-size: 12px;
+	}
 }
 
 
@@ -390,13 +441,39 @@ nav {
 
 .stats-rect h1 {
 	display: inline-block;
-	margin: 180px;
+	margin: 150px;
 	font-size: 46px;
 	margin-top: 60px;
 	font-family: 'DM Sans', sans-serif;
 	color: #192F7A;
 	text-shadow: 1px 1px #80869A;
 	font-weight: 700;
+}
+
+@media only screen and (max-width: 1700px) and (min-width: 1001px) {
+	.stats-rect h1 {
+	display: inline-block;
+	margin: 85px;
+	font-size: 30px;
+	margin-top: 80px;
+	font-family: 'DM Sans', sans-serif;
+	color: #192F7A;
+	text-shadow: 1px 1px #80869A;
+	font-weight: 700;
+	}
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 701px) {
+	.stats-rect h1 {
+	display: inline-block;
+	margin: 34px;
+	font-size: 30px;
+	margin-top: 80px;
+	font-family: 'DM Sans', sans-serif;
+	color: #192F7A;
+	text-shadow: 1px 1px #80869A;
+	font-weight: 700;
+	}
 }
 
 @media(max-width: 700px) {
@@ -475,6 +552,15 @@ nav {
 	font-family: 'DM Sans', sans-serif;
 }
 
+.special-mue-container2 h3 {
+	font-weight: 600; 
+	font-size: 26px; 
+	text-align: center; 
+	margin: auto; 
+	margin-top: 140px; 
+	color: #000000; 
+	font-family: 'DM Sans', sans-serif;
+	}
 
 .special-mue-container2 p {
 	margin-top: 0px;
@@ -489,7 +575,41 @@ nav {
 	display: block;
 }
 
-
+@media only screen and (max-width: 1500px) and (min-width: 701px) {
+	.special-mue {
+	text-align: center;
+	margin: auto;
+	width: 90%;
+	margin-bottom: 6px;
+	margin-top: 80px;
+	
+	}
+	.special-mue-card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin: 10px;
+	height: 450px;
+	display: block;
+	padding: 0px 0px 100px;
+	}
+	.special-mue-container2 p {
+	margin-top: 0px;
+	padding: 40px 40px 80px;
+	font-family: 'DM Sans', sans-serif;
+	font-size: 14px;
+	position: relative;
+	margin-bottom: 20px;
+	}
+	.special-mue-container2 h3 {
+	font-weight: 600; 
+	font-size: 20px; 
+	text-align: center; 
+	margin: auto; 
+	margin-top: 140px; 
+	color: #000000; 
+	font-family: 'DM Sans', sans-serif;
+	}
+	
+}
 
 @media(max-width: 700px) {
 	.special-mue {
