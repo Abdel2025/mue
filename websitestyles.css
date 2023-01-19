@@ -146,25 +146,49 @@ button:hover {
 	display: none;
 }
 
-@media(min-width: 1121px) {
-	 nav {
-	width: 80%;
-	margin: auto;
+
+@media only screen and (max-width: 1700px) and (min-width: 901px) {
+	.logo {
+		position: relative;
+		right: 30px;
+		width: 250px;
+	}
+	
+	.nav-links ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 10px;
+	position: relative;
+	font-family: 'DM Sans', sans-serif;
+
+	}
+	nav {
+	width: 100%;
+	margin: 5px;
 	padding: 35px 0;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	}
+}
+
+@media only screen and (max-width: 900px) and (min-width: 701px) {
+	.logo {
+		position: relative;
+		right: 20px;
+		width: 190px;
+	}
 	.nav-links ul li {
 	list-style: none;
 	display: inline-block;
-	margin: 20px;
+	margin: 0 5px;
 	position: relative;
 	font-family: 'DM Sans', sans-serif;
+	font-size: 14px;
 	}
 }
 
-@media(max-width: 1120px) {
+@media(max-width: 700px) {
 	.banner {
 	width: 100%;
 	padding: 0 10px 40px;
@@ -260,9 +284,12 @@ button:hover {
 .service-col h3 {
 	text-align: center;
 	margin: auto;
-	margin-top: 20px;
+	margin-top: 25px;
 	color: #fff;
 	font-family: 'DM Sans', sans-serif;
+	color: #000000;
+	font-weight: 600; 
+	font-size: 20px;
 }
 
 .services p {
@@ -280,7 +307,7 @@ button:hover {
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 22px;
-	padding: 20px;
+	padding: 10px;
 	text-align: center;
 	color: #000000;
 	font-family: 'DM Sans', sans-serif;
@@ -297,18 +324,21 @@ p {
 }
 
 .service-col {
-	flex-basis: 370px;
+	flex-basis: auto;
 	background: #fff;
 	border-radius: 0px;
 	margin-bottom: 20px;
-	width: 230px;
+	width: 20%;
 	padding: 0 20px;
 	box-sizing: border-box;
 	transition: 0.5s;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	margin-left: 20px;
+	margin: auto;
 	height: 550px;
+	text-align: center;
 }
+
+
 
 .schoolicon {
 	margin: auto;
@@ -364,7 +394,59 @@ p {
 	box-shadow: 0 0 20px 0px rgb(255, 73, 71, 0.5);
 	}
 
-@media(max-width: 700px) {
+@media only screen and (max-width: 1611px) and (min-width: 801px) {
+	.service-col {
+	flex-basis: auto;
+	background: #fff;
+	border-radius: 0px;
+	margin-bottom: 30px;
+	width: 35%;
+	padding: 0 5px;
+	box-sizing: border-box;
+	transition: 0.5s;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin: auto;
+	height: 550px;
+	display: inline-block;
+	text-align: center;
+	
+	}
+	.service-col h3 {
+	text-align: center;
+	margin: auto;
+	margin-top: 20px;
+	color: #fff;
+	font-family: 'DM Sans', sans-serif;
+	color: #000000;
+	font-weight: 600; 
+	font-size: 20px;
+	}
+	.services {
+	width: 100%;
+	margin: 0px;
+	text-align: center;
+	padding: 80px 40px 0;
+	
+	}
+	.row {
+	margin-top: 3%;
+	display: flex;
+	gap: 20px;
+	justify-content: space-between;
+	}
+	.service-col p {
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 20px;
+	text-align: center;
+	color: #000000;
+	font-family: 'DM Sans', sans-serif;
+	
+}
+}
+
+@media(max-width: 800px) {
 	
 	.services h1 {
 	font-size: 50px;
@@ -425,11 +507,13 @@ p {
 }
 
 .campus-col {
-	flex-basis: 32%;
+	flex-basis: auto;
 	border-radius: 10px;
 	margin-bottom: 10px;
 	position: relative;
 	overflow: hidden;
+	text-align: center;
+	width: 30%;
 }
 
 .campus-col img {
@@ -500,45 +584,22 @@ p {
 }
 
 
-.btndestination {
-	display: inline-block;
-	text-decoration: none;
-	color: black;
-	padding: 12px 40px;
-	background: transparent;
-	position: relative;
-	cursor: pointer;
-	align-items: center;
-	font-family: 'DM Sans', sans-serif;
-	margin: auto;
-	margin-top: 20px;
-	width: 50%;
-	font-size: 24px;
-	border-radius: 10px;
-}
+
 
 .btndestination:hover {
 	color: #f44336;
 	text-decoration: none;
 }
 
+@media only screen and (min-width: 801px) {
+	.campus {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 80px;
+	margin-bottom: 80px;
+	}
 
-@media(max-width: 700px) {
-	.btndestination {
-	display: inline-block;
-	text-decoration: none;
-	color: black;
-	padding: 12px 0px;
-	background: transparent;
-	position: relative;
-	cursor: pointer;
-	align-items: center;
-	font-family: 'DM Sans', sans-serif;
-	margin-right: auto;
-	margin-top: 20px;
-	width: 100%;
-	font-size: 24px;
-}
 
 .campus h1 {
 	margin-bottom: 80px;
@@ -546,6 +607,49 @@ p {
 	font-size: 30px;
 }
 
+	.campus {
+	width: 90%;
+	margin: auto;
+	text-align: center;
+	padding-top: 80px;
+	margin-bottom: 80px;
+	}
+	.campus-col {
+	flex-basis: auto;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	width: 30%;
+	}
+
+.layer h3 {
+	bottom: 49%;
+	opacity: 1;
+}
+
+
+}
+
+@media(max-width: 800px) {
+
+
+.campus h1 {
+	margin-bottom: 80px;
+	font-weight: 600;
+	font-size: 30px;
+}
+
+.campus-col {
+	flex-basis: auto;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	width: 100%;
+	}
 .campus {
 	width:80%;
 	margin: auto;
@@ -575,11 +679,12 @@ p {
 }
 }
 
+
 /* --------------------------------------------- ARTICLES ---------------------------------------------- */
 
 .articles {
 	width:80%;
-	margin: 0 250px;
+	margin: auto;
 	text-align: center;
 	padding-top: 10px;
 }
@@ -599,12 +704,13 @@ p {
 }
 
 .article {
-	flex-basis: 30%;
+	flex-basis: auto;
 	border-radius: 10px;
 	margin-bottom: 10px;
-	text-align: left;
 	position: relative;
-	
+	width: 30%;
+	text-align: center;
+	margin: auto;
 }
 
 .article img {
@@ -627,6 +733,8 @@ p {
 	margin-bottom: 15px;
 	text-align: left;
 	cursor: pointer;
+	font-size: 22px; 
+	font-weight: 600;
 }
 
 .articles button {
@@ -647,8 +755,59 @@ p {
 	box-shadow: 0 0 4px 2px rgb(0, 0, 0, 0.4);
 }
 
+@media only screen and (max-width: 1611px) and (min-width: 801px) {
+	.articles {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 10px;
+}
+	.article {
+	flex-basis: auto;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	position: relative;
+	width: 30%;
+	text-align: center;
+	margin: auto;
+	}
+	.articles h1 {
+	font-size: 42px;
+	font-weight: 700;
+	margin-bottom: 80px;
+	text-align: center;
+	margin: auto;
+	}
+	.article p {
+	padding: 0;
+	font-family: 'DM Sans', sans-serif;
+	cursor: pointer;
+	text-align: left;
+	font-size: 12px;
+	}
+	.article h3 {
+	margin-top: 16px;
+	margin-bottom: 15px;
+	text-align: left;
+	cursor: pointer;
+	font-size: 14px;
+	}
+	.articles button {
+	padding: 12px 40px;
+	border: #fff;
+	width: 220px;
+	background: #192F7A;
+	border: 10px;
+	cursor: pointer;
+	color: #fff;
+	margin-top: 50px;
+	margin: auto;
+	text-align: center;
+	margin-top: 40px;
+	}
+}
 
-@media(max-width: 700px) {
+@media(max-width: 800px) {
 .articles {
 	width: 80%;
 	margin: auto;
@@ -665,11 +824,13 @@ p {
 }
 
 .article {
-	flex-basis: 40%;
+	flex-basis: auto;
 	border-radius: 10px;
 	margin-bottom: 30px;
-	text-align: left;
+	text-align: center;
 	position: relative;
+	margin: auto;
+	width: 100%;
 }
 	
 .articles button {
@@ -772,8 +933,40 @@ p {
 	margin-left: 10px;
 }
 
+@media only screen and (max-width: 1611px) and (min-width: 801px) {
+	.testimonials {
+	width: 90%;
+	margin: auto;
+	padding-top: 80px;
+	text-align: center;
+	margin-bottom: 100px;
+	}
+	.testimonials-col {
+	flex-basis: auto;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	text-align: center;
+	background: #D5F3FE;
+	padding: 20px 12px;
+	display: flex;
+	width: 31%;
+	box-sizing: border-box;
+	transition: 0.5s;
+	margin: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	}
+	.testimonials-col h3 {
+	margin-top: 15px;
+	text-align: left;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	font-weight: 600;
+	font-family: 'DM Sans', sans-serif;
+}
+}
 
-@media(max-width: 700px) {
+@media(max-width: 800px) {
 	.testimonials {
 	width: 80%;
 	margin: 30px;
@@ -954,8 +1147,28 @@ form button:hover {
 		width: 100%;
 	}
 
+@media only screen and (max-width: 1165px) and (min-width: 801px) {
+	.quote {
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+	border-radius: 10px;
+	padding: 40px 12px;
+	width: 80%;
+	margin: auto;
+	transition: 0.5s;
+	height: 150px;
+	margin-bottom: 0px;
+	margin-top: 50px;
+	}
+	.form {
+	display: flex;
+	padding: 2vw 20vw;
+	width: 100%;
+	border-radius: 10px;
+}
+}
 
-@media(max-width: 700px) {
+
+@media(max-width: 800px) {
 	.cta h1 {
 		font-size: 24px;
 	}
@@ -998,7 +1211,7 @@ form button:hover {
 	
 	.form {
 	display: flex;
-	padding: 0vw 10vw;
+	padding: 0vw 15vw;
 	width: 100%;
 	border-radius: 10px;
 	}
