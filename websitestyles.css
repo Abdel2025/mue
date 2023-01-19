@@ -200,7 +200,7 @@ button:hover {
 	.logo {
 		position: relative;
 		right: 30px;
-		width: 80%;
+		width: 60%;
 	}
 	.content {
 	width: 100%;
@@ -394,6 +394,8 @@ p {
 	box-shadow: 0 0 20px 0px rgb(255, 73, 71, 0.5);
 	}
 
+
+
 @media only screen and (max-width: 1611px) and (min-width: 801px) {
 	.service-col {
 	flex-basis: auto;
@@ -446,7 +448,78 @@ p {
 }
 }
 
-@media(max-width: 800px) {
+@media only screen and (max-width: 1612px) and (min-width: 1065px) {
+	.service-col {
+	flex-basis: auto;
+	background: #fff;
+	border-radius: 0px;
+	margin-bottom: 30px;
+	width: 45%;
+	padding: 0 5px;
+	box-sizing: border-box;
+	transition: 0.5s;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin: auto;
+	height: 550px;
+	display: inline-block;
+	text-align: center;
+	
+	}
+	
+}
+
+@media only screen and (max-width: 1065px) and (min-width: 801px) {
+	.service-col {
+	flex-basis: auto;
+	background: #fff;
+	border-radius: 0px;
+	margin-bottom: 30px;
+	width: 44%;
+	padding: 0 5px;
+	box-sizing: border-box;
+	transition: 0.5s;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin: auto;
+	height: 550px;
+	display: inline-block;
+	text-align: center;
+	
+	}
+	.row {
+	margin-top: 3%;
+	display: flex;
+	gap: 20px;
+	justify-content: space-between;
+	}
+
+}
+
+@media only screen and (max-width: 800px) and (min-width: 701px) {
+	.service-col {
+	flex-basis: auto;
+	background: #fff;
+	border-radius: 0px;
+	margin-bottom: 30px;
+	width: 44%;
+	padding: 0 5px;
+	box-sizing: border-box;
+	transition: 0.5s;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin: auto;
+	height: 500px;
+	display: inline-block;
+	text-align: center;
+	
+	}
+	.row {
+	margin-top: 3%;
+	display: flex;
+	gap: 15px;
+	justify-content: space-between;
+	}
+}
+
+@media(max-width: 700px) {
 	
 	.services h1 {
 	font-size: 50px;
@@ -493,7 +566,7 @@ p {
 /*--------------------------------------- DESTINATIONS --------------------------------------------*/
 
 .campus {
-	width:80%;
+	width:75%;
 	margin: auto;
 	text-align: center;
 	padding-top: 80px;
@@ -561,8 +634,8 @@ p {
 }
 
 
-.layer:hover {
-	background : rgba(40,67,137,0.7);
+.layer {
+	background : rgba(40,67,137,0.4);
 }
 
 .layer h3{
@@ -593,7 +666,7 @@ p {
 
 @media only screen and (min-width: 801px) and (max-width: 2000px){
 	.campus {
-	width: 80%;
+	width: 75%;
 	margin: auto;
 	text-align: center;
 	padding-top: 80px;
@@ -682,7 +755,7 @@ p {
 
 
 .layer {
-	background : rgba(40,67,137,0.3);
+	background : rgba(40,67,137,0.4);
 }
 }
 
@@ -690,7 +763,7 @@ p {
 /* --------------------------------------------- ARTICLES ---------------------------------------------- */
 
 .articles {
-	width:80%;
+	width:90%;
 	margin: auto;
 	text-align: center;
 	padding-top: 10px;
@@ -733,6 +806,7 @@ p {
 	padding: 0;
 	font-family: 'DM Sans', sans-serif;
 	cursor: pointer;
+	text-align: left;
 }
 
 .article h3 {
@@ -753,8 +827,10 @@ p {
 	cursor: pointer;
 	color: #fff;
 	margin-top: 50px;
-	margin-right: 120px;;
-}
+	margin: auto;
+	text-align: center;
+	margin-top: 40px;
+	}
 
 
 
@@ -764,7 +840,7 @@ p {
 
 @media only screen and (max-width: 1611px) and (min-width: 801px) {
 	.articles {
-	width: 80%;
+	width: 90%;
 	margin: auto;
 	text-align: center;
 	padding-top: 10px;
@@ -848,7 +924,7 @@ p {
 	border: 10px;
 	cursor: pointer;
 	color: #fff;
-	margin-top: 0px;
+	margin-top: 30px;
 	margin-right: 0px;;
 }
 
@@ -858,7 +934,7 @@ p {
 /*------------------------------------------ TESTIMONIALS ------------------------------------------ */
 
 .testimonials {
-	width: 80%;
+	width: 90%;
 	margin: auto;
 	padding-top: 80px;
 	text-align: center;
@@ -970,14 +1046,71 @@ p {
 	font-size: 16px;
 	font-weight: 600;
 	font-family: 'DM Sans', sans-serif;
-}
+	}
 }
 
-@media(max-width: 800px) {
+@media only screen and (max-width: 800px) and (min-width: 701px) {
+	.testimonials {
+	width: 94%;
+	margin: auto;
+	padding-top: 80px;
+	text-align: center;
+	margin-bottom: 100px;
+	}
+	.testimonial-row {
+	margin-top: 3%;
+	display: flex;
+	gap: 0px;
+	justify-content: space-between;
+	}
+	.testimonials-col h3 {
+	margin-top: 15px;
+	text-align: left;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	font-size: 13px;
+	font-weight: 600;
+	font-family: 'DM Sans', sans-serif;
+	}
+	.testimonials-col p {
+	padding: 0;
+	text-align: justify;
+	margin-left: 10px;
+	margin-right: 15px;
+	font-family: 'DM Sans', sans-serif;
+	color: #000000;
+	font-size: 11px;
+	}
+	.testimonials-col img {
+	height: 30px;
+	margin-left: 15px;
+	margin-right: 10px;
+	border-radius: 50%;
+	position: relative;
+	float: left;
+	}
+	.testimonials-col {
+	flex-basis: 31%;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	text-align: left;
+	background: #D5F3FE;
+	padding: 20px 5px;
+	display: flex;
+	width: 25px;
+	box-sizing: border-box;
+	transition: 0.5s;
+	margin: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	}
+	
+}
+
+@media(max-width: 700px) {
 	.testimonials {
 	width: 80%;
 	margin: 30px;
-	padding-top: 0 80px;
+	padding-top: 0 40px;
 	text-align: center;
 	margin-bottom: 40px;
 	}
