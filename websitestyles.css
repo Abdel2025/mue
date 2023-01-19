@@ -276,7 +276,7 @@ button:hover {
 }
 
 .services h1 {
-	font-size: 65px;
+	font-size: 46px;
 	font-weight: 600;
 	font-family: 'DM Sans', sans-serif;
 }
@@ -675,9 +675,9 @@ p {
 
 
 .campus h1 {
-	margin-bottom: 80px;
+	margin-bottom: 60px;
 	font-weight: 600;
-	font-size: 30px;
+	font-size: 36px;
 }
 
 	.campus {
@@ -716,7 +716,7 @@ p {
 
 
 .campus h1 {
-	margin-bottom: 80px;
+	margin-bottom: 60px;
 	font-weight: 600;
 	font-size: 30px;
 }
@@ -770,10 +770,11 @@ p {
 }
 
 .articles h1 {
-	font-size: 46px;
+	font-size: 36px;
 	font-weight: 700;
 	margin-bottom: 60px;
-	margin-right: 100px;
+	margin: auto;
+	text-align: center;
 }
 
 .row {
@@ -855,7 +856,7 @@ p {
 	margin: auto;
 	}
 	.articles h1 {
-	font-size: 42px;
+	font-size: 36px;
 	font-weight: 700;
 	margin-bottom: 80px;
 	text-align: center;
@@ -945,22 +946,30 @@ p {
 	color: #000000;
 }
 
+.testimonial-row {
+	margin-top: 3%;
+	display: flex;
+	gap: 0px;
+	justify-content: space-between;
+	}	
+
 .testimonials h1 {
 	font-weight: 700;
-	font-size: 50px;
+	font-size: 36px;
 	font-family: 'DM Sans', sans-serif;
 	color: #000000;
+	text-align: center;
 }
 
 .testimonials-col {
-	flex-basis: 31%;
+	flex-basis: auto;
 	border-radius: 10px;
 	margin-bottom: 5%;
-	text-align: left;
+	text-align: center;
 	background: #D5F3FE;
 	padding: 20px 12px;
 	display: flex;
-	width: 30px;
+	width: 30%;
 	box-sizing: border-box;
 	transition: 0.5s;
 	margin: auto;
@@ -1014,6 +1023,7 @@ p {
 .stars {
 	color: #f44336;
 	margin-left: 10px;
+	float: left
 }
 
 @media only screen and (max-width: 1611px) and (min-width: 801px) {
@@ -1038,14 +1048,29 @@ p {
 	margin: auto;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	}
+	.testimonial-row {
+	margin-top: 3%;
+	display: flex;
+	gap: 0px;
+	justify-content: space-between;
+	}	
 	.testimonials-col h3 {
 	margin-top: 15px;
 	text-align: left;
 	margin-left: 10px;
 	margin-bottom: 10px;
-	font-size: 16px;
+	font-size: 12px;
 	font-weight: 600;
 	font-family: 'DM Sans', sans-serif;
+	}
+	.testimonials-col p {
+	padding: 0;
+	text-align: justify;
+	margin-left: 10px;
+	margin-right: 15px;
+	font-family: 'DM Sans', sans-serif;
+	color: #000000;
+	font-size: 11px;
 	}
 }
 
