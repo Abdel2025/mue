@@ -21,7 +21,7 @@ html {
 
 .services-top {
 	width: 100%;
-	padding: 0px 0px 400px 0;
+	padding: 0px 0px 300px 0;
 	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(office.jpg);
 	background-size: cover;
 	background-position: center;
@@ -86,7 +86,7 @@ nav {
 .services-top-content {
 	width: 100%;
 	position: relative;
-	top: 100px;
+	top: 60px;
 	text-align: center;
 	color: #fff;
 	}
@@ -130,9 +130,25 @@ nav {
 	box-shadow: 0 0 20px 0px rgb(0, 0, 0, 0.5);
 }
 
+@media only screen and (max-width: 1700px) and (min-width: 901px) {
+	.services-top {
+	padding: 0px 0 180px 0;
+	}
+	.logo {
+		position: relative;
+		right: 30px;
+		width: 250px;
+	}
+	
+	.nav-links ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 10px;
+	position: relative;
+	font-family: 'DM Sans', sans-serif;
 
-@media(min-width: 1121px) {
-	 nav {
+	}
+	nav {
 	width: 80%;
 	margin: auto;
 	padding: 35px 0;
@@ -140,18 +156,62 @@ nav {
 	align-items: center;
 	justify-content: space-between;
 	}
+	.services-top-content {
+	width: 80%;
+	position: relative;
+	top: 40px;
+	text-align: center;
+	color: #fff;
+	padding: 0 60px;
+	margin: auto;
+	}
+}
+
+@media only screen and (max-width: 900px) and (min-width: 701px) {
+	.services-top {
+	padding: 0px 0 150px 0;
+	}
+	.logo {
+		position: relative;
+		right: 20px;
+		width: 190px;
+	}
 	.nav-links ul li {
 	list-style: none;
 	display: inline-block;
-	margin: 20px;
+	margin: 0 5px;
 	position: relative;
 	font-family: 'DM Sans', sans-serif;
+	font-size: 14px;
+	}
+	
+	.services-top-content {
+	width: 80%;
+	position: relative;
+	top: 40px;
+	text-align: center;
+	color: #fff;
+	padding: 0 60px;
+	margin: auto;
+	}
+	.services-top-content p {
+	margin: auto;
+	font-weight: 100;
+	line-height: 25px;
+	font-size: 20px;
+	line-height: 50px;
+	color: #fff;
+	font-family: 'DM Sans', sans-serif;
+	margin-top: 40px;
+	margin-bottom: 30px;
 	}
 }
-@media(max-width: 1120px) {
+
+
+@media(max-width: 700px) {
 	.services-top {
 	width: 100%;
-	padding: 0;
+	padding: 0px 0 80px 0;
 	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(office.jpg);
 	background-size: cover;
 	background-position: center;
@@ -160,7 +220,7 @@ nav {
 	.logo {
 		position: relative;
 		right: 30px;
-		width: 80%;
+		width: 75%;
 	}
 	.content h1 {
 		font-size: 20px;
@@ -227,22 +287,25 @@ nav {
 	}
 
 	.services-top-content button {
-	background: #4F9BE2;
-	width: 95%;
-	text-align: center;
-	border-radius: 25px;
-	font-weight: bold;
-	border: none;
-	color: #fff;
-	cursor: pointer;
 	margin: auto;
-	padding: 15px 20px;
-	font-family: 'DM Sans', sans-serif;
+	margin-bottom: 10px;
+	width: 250px;
 	font-size: 12px;
 	}
 
 	.services-top-content button:hover {
 	box-shadow: 0 0 20px 0px rgb(0, 0, 0, 0.5);
+	}
+	
+}
+
+@media(max-width: 400px) {
+	
+	.services-top-content button {
+	margin: auto;
+	margin-bottom: 10px;
+	width: 220px;
+	font-size: 11px;
 	}
 	
 }
@@ -273,13 +336,15 @@ nav {
 
 .row {
 	display: flex;
+	gap: 0px;
+	justify-content: space-between;
 }
 
 .column {
   display: inline-block;
   margin-bottom: 16px;
   padding: 0 8px 10px;
-  width: 450px;
+  width: 20%;
 }
 
 .card {
@@ -326,7 +391,55 @@ nav {
 	box-shadow: 0 0 4px 2px rgb(0, 0, 0, 0.4);
 }
 
-@media(max-width: 700px) {
+@media only screen and (max-width: 900px) and (min-width: 801px) {
+	.services {
+	text-align: center;
+	margin: auto;
+	width: 100%;
+	margin-bottom: 70px;
+	font-family: 'DM Sans', sans-serif;
+	padding: 0 0px 0;
+	}
+	.card {
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  	margin: auto;
+  	padding: 50px 0px 10px;
+	}
+	.column {
+	display: inline-block;
+	margin-bottom: 16px;
+  	padding: 0 8px 10px;
+	margin: auto;
+	width: 100%;
+	}
+	.row {
+	display: flex;
+	gap: 0px;
+	justify-content: space-between;
+	}
+	.services-container h2 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-family: 'DM Sans', sans-serif;
+	font-size: 16px;
+	}
+	.services-container {
+ 	padding: 5px 5px 8px;
+	}
+	.services-container p {
+	margin-bottom: 20px;
+	text-align: center;
+	font-family: 'DM Sans', sans-serif;
+	padding: 20px;
+	font-size: 14px;
+	}
+	.services-container button {
+	font-size: 12px;
+	width: 90%;
+	}
+}
+
+@media(max-width: 800px) {
 .row {
 	flex-direction: column;
 }
