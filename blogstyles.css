@@ -415,7 +415,7 @@ nav {
 	background: rgba(0, 0, 187,0.4);
 }
 
-@media only screen and (max-width: 1400px) and (min-width: 701px) {
+@media only screen and (max-width: 1400px) and (min-width: 751px) {
 	.articles {
 	width: 90%;
 	margin: auto;
@@ -439,14 +439,14 @@ nav {
 	margin-bottom: 15px;
 	text-align: left;
 	cursor: pointer;
-	font-size: 16px;
+	font-size: 15px;
 	}
 
 	
 }
 
 
-@media(max-width: 700px) {
+@media(max-width: 750px) {
 	.articles {
 		width: 80%;
 		margin: auto;
