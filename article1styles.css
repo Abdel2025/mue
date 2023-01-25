@@ -777,14 +777,17 @@ nav {
 	margin-top: 20px;
 	margin: auto;
 	padding: 0;
+	width: 70%;
 	}
 
 	.consultation-card p {
 	margin: auto;
 	position: relative;
+	text-align: center;
 	}
 
 	.consultation-card h1 {
+	padding: 20px 0 0;
 	margin: auto;
 	}
 
