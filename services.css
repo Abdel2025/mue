@@ -1153,6 +1153,8 @@ nav {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	padding: 20px 0px 20px 15px;
 	border-radius: 10px;
+	margin-top: 80px;
+	margin-bottom: 80px;
 }
 
 .consultation-card:nth-of-type(1) {
@@ -1212,6 +1214,8 @@ nav {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	padding: 20px 0px 20px 15px;
 	border-radius: 10px;
+	margin-top: 80px;
+	margin-bottom: 80px;
 	}
 	.consultation-card p {
 	padding: 0px 0px 0 0px;
@@ -1224,15 +1228,16 @@ nav {
 	.consultation {
 	display: flex;
 	margin: auto;
-	width: 95%;
+	width: 91%;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	padding: 20px 0px 20px 15px;
+	padding: 30px 0px 20px 15px;
 	border-radius: 10px;
+	margin-top: 80px;
+	margin-bottom: 80px;
 	}
 
 	.consultation-card:nth-of-type(1) {
-		padding: 50px 30px 0 0px;
-		
+		padding: 60px 30px 0 0px;
 	}
 	.consultation-card p {
 	padding: 0px 0px 0 0px;
@@ -1242,10 +1247,10 @@ nav {
 	
 	}
 	.consultation-card h1 {
-	font-size: 20px;
+	font-size: 18px;
 	}
 	.consultation-card h3 {
-	font-size: 16px;
+	font-size: 14px;
 	}
 	.consultation button {
 		width: 300px;
@@ -1272,7 +1277,8 @@ nav {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	padding: 40px 30px;
 	border-radius: 10px;
-
+	margin-top: 80px;
+	margin-bottom: 80px;
 	}
 
 	.consultation img {
@@ -1305,14 +1311,17 @@ nav {
 	margin-top: 20px;
 	margin: auto;
 	padding: 0;
+	width: 70%;
 	}
 
 	.consultation-card p {
 	margin: auto;
 	position: relative;
+	text-align: center;
 	}
 
 	.consultation-card h1 {
+	padding: 20px 0 0;
 	margin: auto;
 	}
 
@@ -1343,9 +1352,6 @@ nav {
 	
 
 }
-
-
-
 /* ----------------------------- Footer ------------------------------ */
 
 .footer {
