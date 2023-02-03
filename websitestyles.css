@@ -253,7 +253,15 @@ button:hover {
 	.banner button {
 	margin: auto;
 	margin-bottom: 10px;
-	width: 90%;
+	width: 350px;
+	}
+}
+
+@media(max-width: 400px) {
+	.banner button {
+	margin: auto;
+	margin-bottom: 10px;
+	width: 250px;
 	}
 }
 
